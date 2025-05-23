@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { DivideIcon as LucideIcon } from "lucide-react";
 import * as LucideIcons from "lucide-react";
 import { Category, Subcategory, Quiz } from "@/lib/types";
 import { cn, hasEnoughCoins } from "@/lib/utils";
+import React from "react";
 
 interface CategoryCardProps {
   category: Category;
@@ -13,7 +13,7 @@ interface CategoryCardProps {
 
 export function CategoryCard({ category, className }: CategoryCardProps) {
   // Dynamically get the icon from lucide-react
-  const IconComponent = (LucideIcons as Record<string, LucideIcon>)[
+  const IconComponent = (LucideIcons as any)[
     category.icon.charAt(0).toUpperCase() + category.icon.slice(1)
   ] || LucideIcons.HelpCircle;
 
@@ -25,13 +25,13 @@ export function CategoryCard({ category, className }: CategoryCardProps) {
         </div>
         <h2 className="text-xl font-semibold">{category.name}</h2>
       </div>
-      
+
       <div className="space-y-4">
         {category.subcategories.map((subcategory) => (
-          <SubcategorySection 
+          <SubcategorySection
             key={subcategory.id}
             categoryId={category.id}
-            subcategory={subcategory} 
+            subcategory={subcategory}
           />
         ))}
       </div>
@@ -50,11 +50,11 @@ function SubcategorySection({ categoryId, subcategory }: SubcategorySectionProps
       <h3 className="text-lg font-medium mb-2">{subcategory.name}</h3>
       <div className="grid gap-3">
         {subcategory.quizzes.map((quiz) => (
-          <QuizItem 
+          <QuizItem
             key={quiz.id}
             categoryId={categoryId}
             subcategoryId={subcategory.id}
-            quiz={quiz} 
+            quiz={quiz}
           />
         ))}
       </div>
@@ -70,7 +70,7 @@ interface QuizItemProps {
 
 function QuizItem({ categoryId, subcategoryId, quiz }: QuizItemProps) {
   const canPlay = hasEnoughCoins(quiz.coinCost);
-  
+
   return (
     <div className="p-4 rounded-md border bg-background flex justify-between items-center">
       <div>
@@ -81,7 +81,7 @@ function QuizItem({ categoryId, subcategoryId, quiz }: QuizItemProps) {
           <span className="text-green-500 font-medium">Reward: {quiz.coinReward} coins</span>
         </div>
       </div>
-      
+
       <Link
         href={canPlay ? `/playquiz?category=${categoryId}&subcategory=${subcategoryId}&quiz=${quiz.id}` : "#"}
         className={cn(
