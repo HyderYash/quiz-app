@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which country won the first ICC Cricket World Cup in 1975?",
+    "options": [
+      "West Indies",
+      "Australia",
+      "England",
+      "India"
+    ],
+    "answer": "West Indies"
+  },
+  {
+    "id": 2,
+    "question": "Who is the highest run-scorer in ICC World Cup history?",
+    "options": [
+      "Sachin Tendulkar",
+      "Ricky Ponting",
+      "Virat Kohli",
+      "Kumar Sangakkara"
+    ],
+    "answer": "Sachin Tendulkar"
+  },
+  {
+    "id": 3,
+    "question": "Which country has won the most ICC Cricket World Cups?",
+    "options": [
+      "Australia",
+      "India",
+      "West Indies",
+      "England"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "id": 4,
+    "question": "Who took the most wickets in a single ICC World Cup tournament?",
+    "options": [
+      "Glenn McGrath",
+      "Muttiah Muralitharan",
+      "Wasim Akram",
+      "Brett Lee"
+    ],
+    "answer": "Glenn McGrath"
+  },
+  {
+    "id": 5,
+    "question": "Which year did England win their first ICC Cricket World Cup?",
+    "options": [
+      "2019",
+      "1992",
+      "1983",
+      "2015"
+    ],
+    "answer": "2019"
+  },
+  {
+    "id": 6,
+    "question": "Who scored the fastest century in ICC World Cup history?",
+    "options": [
+      "Glenn Maxwell",
+      "Kevin O'Brien",
+      "AB de Villiers",
+      "Martin Guptill"
+    ],
+    "answer": "Kevin O'Brien"
+  },
+  {
+    "id": 7,
+    "question": "Which stadium hosted the final of the 2011 ICC Cricket World Cup?",
+    "options": [
+      "Wankhede Stadium",
+      "Melbourne Cricket Ground",
+      "Lord's",
+      "Eden Gardens"
+    ],
+    "answer": "Wankhede Stadium"
+  },
+  {
+    "id": 8,
+    "question": "Who was named Player of the Tournament in the 2015 ICC World Cup?",
+    "options": [
+      "Mitchell Starc",
+      "Martin Guptill",
+      "AB de Villiers",
+      "MS Dhoni"
+    ],
+    "answer": "Martin Guptill"
+  },
+  {
+    "id": 9,
+    "question": "Which bowler has the best bowling figures in an ICC World Cup match?",
+    "options": [
+      "Glenn McGrath",
+      "Brett Lee",
+      "Joel Garner",
+      "Chaminda Vaas"
+    ],
+    "answer": "Chaminda Vaas"
+  },
+  {
+    "id": 10,
+    "question": "How often is the ICC Cricket World Cup held?",
+    "options": [
+      "Every 4 years",
+      "Every 2 years",
+      "Every year",
+      "Every 6 years"
+    ],
+    "answer": "Every 4 years"
+  }
+]

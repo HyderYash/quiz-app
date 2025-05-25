@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Who directed the movie 'Titanic'?",
+    "options": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Martin Scorsese",
+      "Christopher Nolan"
+    ],
+    "answer": "James Cameron"
+  },
+  {
+    "id": 2,
+    "question": "Who played Iron Man in the Marvel Cinematic Universe?",
+    "options": [
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Robert Downey Jr.",
+      "Mark Ruffalo"
+    ],
+    "answer": "Robert Downey Jr."
+  },
+  {
+    "id": 3,
+    "question": "What is the highest-grossing Hollywood film of all time (as of 2024)?",
+    "options": [
+      "Avatar",
+      "Avengers: Endgame",
+      "Titanic",
+      "Star Wars: The Force Awakens"
+    ],
+    "answer": "Avatar"
+  },
+  {
+    "id": 4,
+    "question": "Which actress starred in 'Pretty Woman'?",
+    "options": [
+      "Julia Roberts",
+      "Sandra Bullock",
+      "Jennifer Aniston",
+      "Nicole Kidman"
+    ],
+    "answer": "Julia Roberts"
+  },
+  {
+    "id": 5,
+    "question": "Which movie features the line: “I'll be back”?",
+    "options": [
+      "RoboCop",
+      "The Matrix",
+      "Terminator",
+      "Die Hard"
+    ],
+    "answer": "Terminator"
+  },
+  {
+    "id": 6,
+    "question": "Who played the Joker in 'The Dark Knight' (2008)?",
+    "options": [
+      "Joaquin Phoenix",
+      "Jared Leto",
+      "Jack Nicholson",
+      "Heath Ledger"
+    ],
+    "answer": "Heath Ledger"
+  },
+  {
+    "id": 7,
+    "question": "What is the name of the fictional African country in 'Black Panther'?",
+    "options": [
+      "Zamunda",
+      "Wakanda",
+      "Narnia",
+      "Genovia"
+    ],
+    "answer": "Wakanda"
+  },
+  {
+    "id": 8,
+    "question": "Who won the Best Actress Oscar for 'La La Land'?",
+    "options": [
+      "Emma Stone",
+      "Emma Watson",
+      "Natalie Portman",
+      "Jennifer Lawrence"
+    ],
+    "answer": "Emma Stone"
+  },
+  {
+    "id": 9,
+    "question": "What 1994 movie features a character named Forrest Gump?",
+    "options": [
+      "The Shawshank Redemption",
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Good Will Hunting"
+    ],
+    "answer": "Forrest Gump"
+  },
+  {
+    "id": 10,
+    "question": "Who composed the iconic 'Star Wars' soundtrack?",
+    "options": [
+      "Hans Zimmer",
+      "James Horner",
+      "John Williams",
+      "Danny Elfman"
+    ],
+    "answer": "John Williams"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Where is the ancient city of Pompeii located?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey",
+      "Egypt"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "id": 2,
+    "question": "Which historical site is famous for its large stone statues called Moai?",
+    "options": [
+      "Easter Island",
+      "Stonehenge",
+      "Machu Picchu",
+      "Great Zimbabwe"
+    ],
+    "answer": "Easter Island"
+  },
+  {
+    "id": 3,
+    "question": "The Great Wall of China was built primarily to protect against invasions from which group?",
+    "options": [
+      "Mongols",
+      "Romans",
+      "Vikings",
+      "Huns"
+    ],
+    "answer": "Mongols"
+  },
+  {
+    "id": 4,
+    "question": "Machu Picchu is a historical site of which ancient civilization?",
+    "options": [
+      "Aztec",
+      "Mayan",
+      "Inca",
+      "Olmec"
+    ],
+    "answer": "Inca"
+  },
+  {
+    "id": 5,
+    "question": "The Colosseum is located in which city?",
+    "options": [
+      "Athens",
+      "Rome",
+      "Cairo",
+      "Istanbul"
+    ],
+    "answer": "Rome"
+  },
+  {
+    "id": 6,
+    "question": "Which famous temple complex is located in Cambodia?",
+    "options": [
+      "Angkor Wat",
+      "Borobudur",
+      "Taj Mahal",
+      "Petra"
+    ],
+    "answer": "Angkor Wat"
+  },
+  {
+    "id": 7,
+    "question": "The city of Troy, famous for its war in Greek mythology, is located in which modern country?",
+    "options": [
+      "Turkey",
+      "Greece",
+      "Italy",
+      "Cyprus"
+    ],
+    "answer": "Turkey"
+  },
+  {
+    "id": 8,
+    "question": "Which ancient city was buried under volcanic ash after the eruption of Mount Vesuvius?",
+    "options": [
+      "Pompeii",
+      "Athens",
+      "Babylon",
+      "Carthage"
+    ],
+    "answer": "Pompeii"
+  },
+  {
+    "id": 9,
+    "question": "The Taj Mahal is located in which country?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "answer": "India"
+  },
+  {
+    "id": 10,
+    "question": "Where is the ancient site of Petra located?",
+    "options": [
+      "Jordan",
+      "Lebanon",
+      "Israel",
+      "Syria"
+    ],
+    "answer": "Jordan"
+  }
+]

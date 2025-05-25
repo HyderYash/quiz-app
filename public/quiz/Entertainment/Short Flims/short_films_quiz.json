@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which short film won the Oscar for Best Live Action Short Film in 2023?",
+    "options": [
+      "An Irish Goodbye",
+      "The Red Suitcase",
+      "Le Pupille",
+      "Ivalu"
+    ],
+    "answer": "An Irish Goodbye"
+  },
+  {
+    "id": 2,
+    "question": "Which Pixar short features a dumpling that comes to life?",
+    "options": [
+      "Piper",
+      "Bao",
+      "Lava",
+      "La Luna"
+    ],
+    "answer": "Bao"
+  },
+  {
+    "id": 3,
+    "question": "Which short film accompanied Pixar\u2019s 'Coco' in theaters?",
+    "options": [
+      "Lava",
+      "Olaf's Frozen Adventure",
+      "La Luna",
+      "Piper"
+    ],
+    "answer": "Olaf's Frozen Adventure"
+  },
+  {
+    "id": 4,
+    "question": "What is the theme of the Oscar-winning short 'The Silent Child'?",
+    "options": [
+      "Autism",
+      "Deafness",
+      "Bullying",
+      "Poverty"
+    ],
+    "answer": "Deafness"
+  },
+  {
+    "id": 5,
+    "question": "Which short film by Charlie Chaplin is considered one of his early masterpieces?",
+    "options": [
+      "The Tramp",
+      "The Kid",
+      "A Dog's Life",
+      "The Immigrant"
+    ],
+    "answer": "The Immigrant"
+  },
+  {
+    "id": 6,
+    "question": "What is the name of the short film that launched Wes Anderson\u2019s career?",
+    "options": [
+      "Bottle Rocket",
+      "Rushmore",
+      "Hotel Chevalier",
+      "The Royal Tenenbaums"
+    ],
+    "answer": "Bottle Rocket"
+  },
+  {
+    "id": 7,
+    "question": "Which short film is about a man who finds a magic remote that can stop time?",
+    "options": [
+      "Time Out",
+      "The Black Hole",
+      "Curve",
+      "Still Life"
+    ],
+    "answer": "The Black Hole"
+  },
+  {
+    "id": 8,
+    "question": "Which short film won Best Animated Short Film at the 2022 Oscars?",
+    "options": [
+      "Robin Robin",
+      "Boxballet",
+      "The Windshield Wiper",
+      "Affairs of the Art"
+    ],
+    "answer": "The Windshield Wiper"
+  },
+  {
+    "id": 9,
+    "question": "Which animated short film tells the story of a sandpiper learning to feed at the beach?",
+    "options": [
+      "Piper",
+      "Feast",
+      "Day & Night",
+      "Presto"
+    ],
+    "answer": "Piper"
+  },
+  {
+    "id": 10,
+    "question": "What short film won the 2021 Oscar for Best Live Action Short Film?",
+    "options": [
+      "The Letter Room",
+      "Feeling Through",
+      "Two Distant Strangers",
+      "White Eye"
+    ],
+    "answer": "Two Distant Strangers"
+  }
+]

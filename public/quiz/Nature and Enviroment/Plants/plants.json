@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What process do plants use to convert sunlight into food?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Fermentation"
+    ],
+    "answer": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "question": "Which part of the plant is responsible for absorbing water?",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Stem",
+      "Flowers"
+    ],
+    "answer": "Roots"
+  },
+  {
+    "id": 3,
+    "question": "What pigment gives plants their green color?",
+    "options": [
+      "Chlorophyll",
+      "Carotene",
+      "Xanthophyll",
+      "Anthocyanin"
+    ],
+    "answer": "Chlorophyll"
+  },
+  {
+    "id": 4,
+    "question": "Which part of the plant produces seeds?",
+    "options": [
+      "Flower",
+      "Root",
+      "Leaf",
+      "Stem"
+    ],
+    "answer": "Flower"
+  },
+  {
+    "id": 5,
+    "question": "What is the term for plants that live for more than two years?",
+    "options": [
+      "Perennials",
+      "Annuals",
+      "Biennials",
+      "Ephemerals"
+    ],
+    "answer": "Perennials"
+  },
+  {
+    "id": 6,
+    "question": "Which plant is known for its ability to survive in deserts?",
+    "options": [
+      "Cactus",
+      "Fern",
+      "Moss",
+      "Bamboo"
+    ],
+    "answer": "Cactus"
+  },
+  {
+    "id": 7,
+    "question": "What is the process by which plants lose water through their leaves?",
+    "options": [
+      "Transpiration",
+      "Photosynthesis",
+      "Respiration",
+      "Osmosis"
+    ],
+    "answer": "Transpiration"
+  },
+  {
+    "id": 8,
+    "question": "Which of these is a non-flowering plant?",
+    "options": [
+      "Fern",
+      "Rose",
+      "Sunflower",
+      "Tulip"
+    ],
+    "answer": "Fern"
+  },
+  {
+    "id": 9,
+    "question": "What type of plant completes its life cycle in one year?",
+    "options": [
+      "Annual",
+      "Perennial",
+      "Biennial",
+      "Deciduous"
+    ],
+    "answer": "Annual"
+  },
+  {
+    "id": 10,
+    "question": "Which gas do plants take in for photosynthesis?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": "Carbon dioxide"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which team won the first IPL season in 2008?",
+    "options": [
+      "Rajasthan Royals",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Kolkata Knight Riders"
+    ],
+    "answer": "Rajasthan Royals"
+  },
+  {
+    "id": 2,
+    "question": "Who is the highest run-scorer in IPL history?",
+    "options": [
+      "Virat Kohli",
+      "Suresh Raina",
+      "Chris Gayle",
+      "Shikhar Dhawan"
+    ],
+    "answer": "Virat Kohli"
+  },
+  {
+    "id": 3,
+    "question": "Which player has taken the most wickets in IPL history?",
+    "options": [
+      "Lasith Malinga",
+      "Amit Mishra",
+      "Dwayne Bravo",
+      "Bhuvneshwar Kumar"
+    ],
+    "answer": "Lasith Malinga"
+  },
+  {
+    "id": 4,
+    "question": "Which team has won the most IPL titles?",
+    "options": [
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Sunrisers Hyderabad"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 5,
+    "question": "Who won the Orange Cap (most runs) in IPL 2023?",
+    "options": [
+      "Shubman Gill",
+      "Faf du Plessis",
+      "Jos Buttler",
+      "Virat Kohli"
+    ],
+    "answer": "Shubman Gill"
+  },
+  {
+    "id": 6,
+    "question": "What does the term 'IPL' stand for?",
+    "options": [
+      "Indian Premier League",
+      "International Premier League",
+      "India Pro League",
+      "Indian Professional League"
+    ],
+    "answer": "Indian Premier League"
+  },
+  {
+    "id": 7,
+    "question": "Which bowler is known for his signature 'toe-crushing yorkers' in IPL?",
+    "options": [
+      "Lasith Malinga",
+      "Bhuvneshwar Kumar",
+      "Jasprit Bumrah",
+      "Harbhajan Singh"
+    ],
+    "answer": "Lasith Malinga"
+  },
+  {
+    "id": 8,
+    "question": "Which franchise is based in Chennai?",
+    "options": [
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Kolkata Knight Riders",
+      "Delhi Capitals"
+    ],
+    "answer": "Chennai Super Kings"
+  },
+  {
+    "id": 9,
+    "question": "Who holds the record for the fastest century in IPL?",
+    "options": [
+      "Chris Gayle",
+      "AB de Villiers",
+      "KL Rahul",
+      "Andre Russell"
+    ],
+    "answer": "Chris Gayle"
+  },
+  {
+    "id": 10,
+    "question": "Which year was the IPL founded?",
+    "options": [
+      "2008",
+      "2010",
+      "2005",
+      "2012"
+    ],
+    "answer": "2008"
+  }
+]

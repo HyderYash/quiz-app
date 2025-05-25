@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "options": [
+      "Charlotte Brontë",
+      "Jane Austen",
+      "Emily Dickinson",
+      "Virginia Woolf"
+    ],
+    "answer": "Jane Austen"
+  },
+  {
+    "id": 2,
+    "question": "Which author created the detective Sherlock Holmes?",
+    "options": [
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Edgar Allan Poe",
+      "Raymond Chandler"
+    ],
+    "answer": "Arthur Conan Doyle"
+  },
+  {
+    "id": 3,
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": [
+      "Christopher Marlowe",
+      "Ben Jonson",
+      "William Shakespeare",
+      "John Milton"
+    ],
+    "answer": "William Shakespeare"
+  },
+  {
+    "id": 4,
+    "question": "Which book is written by George Orwell?",
+    "options": [
+      "Brave New World",
+      "1984",
+      "Fahrenheit 451",
+      "Animal Farm"
+    ],
+    "answer": "1984"
+  },
+  {
+    "id": 5,
+    "question": "Who is the author of 'Wuthering Heights'?",
+    "options": [
+      "Emily Brontë",
+      "Charlotte Brontë",
+      "Anne Brontë",
+      "Elizabeth Gaskell"
+    ],
+    "answer": "Emily Brontë"
+  },
+  {
+    "id": 6,
+    "question": "Which novel is written by Charles Dickens?",
+    "options": [
+      "Great Expectations",
+      "Jane Eyre",
+      "The Picture of Dorian Gray",
+      "Dracula"
+    ],
+    "answer": "Great Expectations"
+  },
+  {
+    "id": 7,
+    "question": "Who wrote 'The Hobbit'?",
+    "options": [
+      "C.S. Lewis",
+      "J.K. Rowling",
+      "J.R.R. Tolkien",
+      "Terry Pratchett"
+    ],
+    "answer": "J.R.R. Tolkien"
+  },
+  {
+    "id": 8,
+    "question": "Which author is known for 'To the Lighthouse'?",
+    "options": [
+      "Virginia Woolf",
+      "D.H. Lawrence",
+      "E.M. Forster",
+      "James Joyce"
+    ],
+    "answer": "Virginia Woolf"
+  },
+  {
+    "id": 9,
+    "question": "Who wrote the book 'Dracula'?",
+    "options": [
+      "Mary Shelley",
+      "Bram Stoker",
+      "Robert Louis Stevenson",
+      "H.G. Wells"
+    ],
+    "answer": "Bram Stoker"
+  },
+  {
+    "id": 10,
+    "question": "Which author wrote 'Oliver Twist'?",
+    "options": [
+      "Charles Dickens",
+      "William Makepeace Thackeray",
+      "George Eliot",
+      "Thomas Hardy"
+    ],
+    "answer": "Charles Dickens"
+  }
+]

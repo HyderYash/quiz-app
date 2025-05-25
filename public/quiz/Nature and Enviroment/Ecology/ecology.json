@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is ecology the study of?",
+    "options": [
+      "Interactions between organisms and their environment",
+      "Study of ancient fossils",
+      "Weather patterns",
+      "Chemical reactions"
+    ],
+    "answer": "Interactions between organisms and their environment"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is a producer in an ecosystem?",
+    "options": [
+      "Grass",
+      "Rabbit",
+      "Wolf",
+      "Fungus"
+    ],
+    "answer": "Grass"
+  },
+  {
+    "id": 3,
+    "question": "What term describes animals that eat only plants?",
+    "options": [
+      "Herbivores",
+      "Carnivores",
+      "Omnivores",
+      "Detritivores"
+    ],
+    "answer": "Herbivores"
+  },
+  {
+    "id": 4,
+    "question": "Which cycle describes the movement of water through the environment?",
+    "options": [
+      "Water cycle",
+      "Carbon cycle",
+      "Nitrogen cycle",
+      "Oxygen cycle"
+    ],
+    "answer": "Water cycle"
+  },
+  {
+    "id": 5,
+    "question": "What is biodiversity?",
+    "options": [
+      "Variety of life in a particular habitat",
+      "Amount of rainfall",
+      "Number of trees in a forest",
+      "Types of soil"
+    ],
+    "answer": "Variety of life in a particular habitat"
+  },
+  {
+    "id": 6,
+    "question": "Which organism breaks down dead material in an ecosystem?",
+    "options": [
+      "Decomposers",
+      "Producers",
+      "Consumers",
+      "Predators"
+    ],
+    "answer": "Decomposers"
+  },
+  {
+    "id": 7,
+    "question": "What is a food chain?",
+    "options": [
+      "Sequence of who eats whom in an ecosystem",
+      "List of animals in a habitat",
+      "Types of plants in an area",
+      "Layers of soil"
+    ],
+    "answer": "Sequence of who eats whom in an ecosystem"
+  },
+  {
+    "id": 8,
+    "question": "What is the largest terrestrial biome?",
+    "options": [
+      "Taiga",
+      "Desert",
+      "Tundra",
+      "Rainforest"
+    ],
+    "answer": "Taiga"
+  },
+  {
+    "id": 9,
+    "question": "Which gas is essential for photosynthesis?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Methane"
+    ],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "id": 10,
+    "question": "What term describes the role an organism plays in its environment?",
+    "options": [
+      "Niche",
+      "Habitat",
+      "Ecosystem",
+      "Biome"
+    ],
+    "answer": "Niche"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is a robot?",
+    "options": [
+      "A machine that can perform tasks automatically",
+      "A human",
+      "A software program",
+      "A type of animal"
+    ],
+    "answer": "A machine that can perform tasks automatically"
+  },
+  {
+    "id": 2,
+    "question": "Who is known as the father of robotics?",
+    "options": [
+      "Joseph Engelberger",
+      "Isaac Asimov",
+      "Nikola Tesla",
+      "Alan Turing"
+    ],
+    "answer": "Joseph Engelberger"
+  },
+  {
+    "id": 3,
+    "question": "What is the term for a robot’s ability to learn from experience?",
+    "options": [
+      "Machine learning",
+      "Programming",
+      "Manual control",
+      "Sensors"
+    ],
+    "answer": "Machine learning"
+  },
+  {
+    "id": 4,
+    "question": "Which sensor is commonly used by robots to detect obstacles?",
+    "options": [
+      "Ultrasonic sensor",
+      "Temperature sensor",
+      "Pressure sensor",
+      "Light sensor"
+    ],
+    "answer": "Ultrasonic sensor"
+  },
+  {
+    "id": 5,
+    "question": "What is an industrial robot mainly used for?",
+    "options": [
+      "Manufacturing tasks",
+      "Entertainment",
+      "Teaching",
+      "Medical diagnosis"
+    ],
+    "answer": "Manufacturing tasks"
+  },
+  {
+    "id": 6,
+    "question": "Which programming language is widely used in robotics?",
+    "options": [
+      "Python",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "answer": "Python"
+  },
+  {
+    "id": 7,
+    "question": "What does 'autonomous robot' mean?",
+    "options": [
+      "A robot that operates without human intervention",
+      "A robot controlled by humans",
+      "A robot powered by batteries",
+      "A robot that needs manual input"
+    ],
+    "answer": "A robot that operates without human intervention"
+  },
+  {
+    "id": 8,
+    "question": "Which of these is an example of a humanoid robot?",
+    "options": [
+      "ASIMO",
+      "Roomba",
+      "Mars Rover",
+      "Drone"
+    ],
+    "answer": "ASIMO"
+  },
+  {
+    "id": 9,
+    "question": "What is 'robotics' the study of?",
+    "options": [
+      "Design, construction, and use of robots",
+      "Computer programming only",
+      "Mechanical engineering only",
+      "Biology"
+    ],
+    "answer": "Design, construction, and use of robots"
+  },
+  {
+    "id": 10,
+    "question": "Which country is known for pioneering robotics technology?",
+    "options": [
+      "Japan",
+      "Brazil",
+      "Egypt",
+      "Australia"
+    ],
+    "answer": "Japan"
+  }
+]

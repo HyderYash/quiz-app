@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does EHR stand for in health technology?",
+    "options": [
+      "Electronic Health Record",
+      "Electronic Hospital Report",
+      "Emergency Health Response",
+      "Electronic Health Registry"
+    ],
+    "answer": "Electronic Health Record"
+  },
+  {
+    "id": 2,
+    "question": "Which technology is commonly used for remote patient monitoring?",
+    "options": [
+      "Wearable devices",
+      "MRI machines",
+      "X-ray machines",
+      "Ultrasound devices"
+    ],
+    "answer": "Wearable devices"
+  },
+  {
+    "id": 3,
+    "question": "What is telemedicine?",
+    "options": [
+      "Remote diagnosis and treatment of patients",
+      "In-person surgery",
+      "Physical therapy",
+      "Laboratory testing"
+    ],
+    "answer": "Remote diagnosis and treatment of patients"
+  },
+  {
+    "id": 4,
+    "question": "Which technology helps in 3D imaging of internal body parts?",
+    "options": [
+      "MRI",
+      "ECG",
+      "X-ray",
+      "EEG"
+    ],
+    "answer": "MRI"
+  },
+  {
+    "id": 5,
+    "question": "What role does AI play in health technology?",
+    "options": [
+      "Assisting diagnosis and treatment planning",
+      "Manufacturing medicines",
+      "Cleaning hospital equipment",
+      "Scheduling appointments only"
+    ],
+    "answer": "Assisting diagnosis and treatment planning"
+  },
+  {
+    "id": 6,
+    "question": "What is a common use of blockchain technology in healthcare?",
+    "options": [
+      "Secure patient data management",
+      "Creating medical devices",
+      "Performing surgeries",
+      "Vaccination"
+    ],
+    "answer": "Secure patient data management"
+  },
+  {
+    "id": 7,
+    "question": "Which device is used to measure electrical activity of the heart?",
+    "options": [
+      "ECG",
+      "MRI",
+      "Ultrasound",
+      "CT Scan"
+    ],
+    "answer": "ECG"
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of robotic surgery?",
+    "options": [
+      "To perform minimally invasive surgeries with precision",
+      "To replace doctors",
+      "To clean operating rooms",
+      "To diagnose diseases"
+    ],
+    "answer": "To perform minimally invasive surgeries with precision"
+  },
+  {
+    "id": 9,
+    "question": "What does mHealth stand for?",
+    "options": [
+      "Mobile Health",
+      "Medical Health",
+      "Modern Health",
+      "Managed Health"
+    ],
+    "answer": "Mobile Health"
+  },
+  {
+    "id": 10,
+    "question": "Which technology allows real-time video consultations between doctors and patients?",
+    "options": [
+      "Telemedicine",
+      "EHR",
+      "MRI",
+      "CT Scan"
+    ],
+    "answer": "Telemedicine"
+  }
+]

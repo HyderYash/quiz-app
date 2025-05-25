@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is 25 + 37?",
+    "options": [
+      "62",
+      "52",
+      "72",
+      "58"
+    ],
+    "answer": "62"
+  },
+  {
+    "id": 2,
+    "question": "What is 144 ÷ 12?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 3,
+    "question": "What is 15 × 4?",
+    "options": [
+      "60",
+      "45",
+      "50",
+      "55"
+    ],
+    "answer": "60"
+  },
+  {
+    "id": 4,
+    "question": "Subtract 89 from 150.",
+    "options": [
+      "69",
+      "61",
+      "71",
+      "79"
+    ],
+    "answer": "61"
+  },
+  {
+    "id": 5,
+    "question": "What is the remainder when 29 is divided by 5?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 6,
+    "question": "What is 7 squared (7^2)?",
+    "options": [
+      "49",
+      "42",
+      "56",
+      "36"
+    ],
+    "answer": "49"
+  },
+  {
+    "id": 7,
+    "question": "What is 100% of 45?",
+    "options": [
+      "45",
+      "50",
+      "40",
+      "55"
+    ],
+    "answer": "45"
+  },
+  {
+    "id": 8,
+    "question": "Add 0.75 and 1.25.",
+    "options": [
+      "2.00",
+      "2.25",
+      "1.75",
+      "2.50"
+    ],
+    "answer": "2.00"
+  },
+  {
+    "id": 9,
+    "question": "What is half of 84?",
+    "options": [
+      "42",
+      "41",
+      "43",
+      "44"
+    ],
+    "answer": "42"
+  },
+  {
+    "id": 10,
+    "question": "Divide 81 by 9.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9"
+  }
+]

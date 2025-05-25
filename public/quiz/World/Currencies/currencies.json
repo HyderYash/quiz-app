@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the currency of Japan?",
+    "options": [
+      "Yen",
+      "Dollar",
+      "Euro",
+      "Rupee"
+    ],
+    "answer": "Yen"
+  },
+  {
+    "id": 2,
+    "question": "What currency is used in the United States?",
+    "options": [
+      "Dollar",
+      "Pound",
+      "Euro",
+      "Franc"
+    ],
+    "answer": "Dollar"
+  },
+  {
+    "id": 3,
+    "question": "Which currency is used in the United Kingdom?",
+    "options": [
+      "Pound Sterling",
+      "Euro",
+      "Dollar",
+      "Rupee"
+    ],
+    "answer": "Pound Sterling"
+  },
+  {
+    "id": 4,
+    "question": "What is the currency of India?",
+    "options": [
+      "Rupee",
+      "Dollar",
+      "Yen",
+      "Peso"
+    ],
+    "answer": "Rupee"
+  },
+  {
+    "id": 5,
+    "question": "Which currency is used in the Eurozone countries?",
+    "options": [
+      "Euro",
+      "Dollar",
+      "Pound",
+      "Franc"
+    ],
+    "answer": "Euro"
+  },
+  {
+    "id": 6,
+    "question": "What currency does Canada use?",
+    "options": [
+      "Canadian Dollar",
+      "US Dollar",
+      "Euro",
+      "Peso"
+    ],
+    "answer": "Canadian Dollar"
+  },
+  {
+    "id": 7,
+    "question": "What is the currency of Australia?",
+    "options": [
+      "Australian Dollar",
+      "Pound",
+      "Euro",
+      "Yen"
+    ],
+    "answer": "Australian Dollar"
+  },
+  {
+    "id": 8,
+    "question": "Which currency is used in Switzerland?",
+    "options": [
+      "Swiss Franc",
+      "Euro",
+      "Dollar",
+      "Pound"
+    ],
+    "answer": "Swiss Franc"
+  },
+  {
+    "id": 9,
+    "question": "What is the currency of China?",
+    "options": [
+      "Renminbi (Yuan)",
+      "Dollar",
+      "Yen",
+      "Rupee"
+    ],
+    "answer": "Renminbi (Yuan)"
+  },
+  {
+    "id": 10,
+    "question": "Which currency is used in South Africa?",
+    "options": [
+      "Rand",
+      "Dollar",
+      "Euro",
+      "Pound"
+    ],
+    "answer": "Rand"
+  }
+]

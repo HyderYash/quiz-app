@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of Japan and what does its flag feature?",
+    "options": [
+      "Tokyo - Red circle on white",
+      "Kyoto - Red stripes",
+      "Osaka - Blue circle",
+      "Hiroshima - White star"
+    ],
+    "answer": "Tokyo - Red circle on white"
+  },
+  {
+    "id": 2,
+    "question": "What is the capital of Canada and what color dominates its flag?",
+    "options": [
+      "Ottawa - Red and white",
+      "Toronto - Blue and white",
+      "Vancouver - Green and white",
+      "Montreal - Yellow and red"
+    ],
+    "answer": "Ottawa - Red and white"
+  },
+  {
+    "id": 3,
+    "question": "What is the capital of Australia and what symbol is on its flag?",
+    "options": [
+      "Canberra - Commonwealth Star and Southern Cross",
+      "Sydney - Kangaroo",
+      "Melbourne - Koala",
+      "Brisbane - Emu"
+    ],
+    "answer": "Canberra - Commonwealth Star and Southern Cross"
+  },
+  {
+    "id": 4,
+    "question": "What is the capital of Brazil and what are the main colors of its flag?",
+    "options": [
+      "Brasília - Green, yellow, and blue",
+      "Rio de Janeiro - Blue and white",
+      "São Paulo - Red and white",
+      "Salvador - Yellow and red"
+    ],
+    "answer": "Brasília - Green, yellow, and blue"
+  },
+  {
+    "id": 5,
+    "question": "What is the capital of France and what colors make up its flag?",
+    "options": [
+      "Paris - Blue, white, and red",
+      "Lyon - Red and white",
+      "Marseille - Blue and yellow",
+      "Nice - Green, white, and red"
+    ],
+    "answer": "Paris - Blue, white, and red"
+  },
+  {
+    "id": 6,
+    "question": "What is the capital of South Africa and what unique feature does its flag have?",
+    "options": [
+      "Pretoria - Multi-colored Y-shape",
+      "Johannesburg - Single color",
+      "Cape Town - Stripes",
+      "Durban - Star"
+    ],
+    "answer": "Pretoria - Multi-colored Y-shape"
+  },
+  {
+    "id": 7,
+    "question": "What is the capital of Russia and what symbol is on its flag?",
+    "options": [
+      "Moscow - White, blue, and red stripes",
+      "Saint Petersburg - Red star",
+      "Novosibirsk - Blue cross",
+      "Kazan - Golden eagle"
+    ],
+    "answer": "Moscow - White, blue, and red stripes"
+  },
+  {
+    "id": 8,
+    "question": "What is the capital of Egypt and what colors are on its flag?",
+    "options": [
+      "Cairo - Red, white, and black with eagle",
+      "Alexandria - Blue and white",
+      "Luxor - Green and gold",
+      "Giza - Yellow and red"
+    ],
+    "answer": "Cairo - Red, white, and black with eagle"
+  },
+  {
+    "id": 9,
+    "question": "What is the capital of Italy and what colors are on its flag?",
+    "options": [
+      "Rome - Green, white, and red",
+      "Milan - Red and white",
+      "Venice - Blue and gold",
+      "Florence - Yellow and red"
+    ],
+    "answer": "Rome - Green, white, and red"
+  },
+  {
+    "id": 10,
+    "question": "What is the capital of Mexico and what colors make up its flag?",
+    "options": [
+      "Mexico City - Green, white, and red with eagle",
+      "Guadalajara - Blue and white",
+      "Monterrey - Red and yellow",
+      "Cancun - Yellow and green"
+    ],
+    "answer": "Mexico City - Green, white, and red with eagle"
+  }
+]

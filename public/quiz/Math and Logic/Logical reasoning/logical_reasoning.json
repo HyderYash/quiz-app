@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+    "options": [
+      "Yes",
+      "No",
+      "Cannot be determined",
+      "Only some"
+    ],
+    "answer": "Cannot be determined"
+  },
+  {
+    "id": 2,
+    "question": "What comes next in the sequence: 2, 4, 8, 16, ...?",
+    "options": [
+      "18",
+      "24",
+      "32",
+      "30"
+    ],
+    "answer": "32"
+  },
+  {
+    "id": 3,
+    "question": "If John is taller than Mike, and Mike is taller than Sam, who is the shortest?",
+    "options": [
+      "John",
+      "Mike",
+      "Sam",
+      "Cannot be determined"
+    ],
+    "answer": "Sam"
+  },
+  {
+    "id": 4,
+    "question": "Find the odd one out: 3, 7, 11, 15, 19",
+    "options": [
+      "3",
+      "7",
+      "11",
+      "15",
+      "19"
+    ],
+    "answer": "15"
+  },
+  {
+    "id": 5,
+    "question": "If all cats are animals and some animals are pets, are all cats pets?",
+    "options": [
+      "Yes",
+      "No",
+      "Cannot be determined",
+      "Some cats are not pets"
+    ],
+    "answer": "Cannot be determined"
+  },
+  {
+    "id": 6,
+    "question": "If 5 pencils cost $10, how much do 8 pencils cost?",
+    "options": [
+      "$12",
+      "$14",
+      "$16",
+      "$18"
+    ],
+    "answer": "$16"
+  },
+  {
+    "id": 7,
+    "question": "Which number does not belong to the group? 2, 4, 6, 9, 10",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "9",
+      "10"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 8,
+    "question": "If you rearrange the letters 'CIFAIPC', which word can you form?",
+    "options": [
+      "PACIFIC",
+      "PACIFICIC",
+      "PACIFICE",
+      "CAPIFIC"
+    ],
+    "answer": "PACIFIC"
+  },
+  {
+    "id": 9,
+    "question": "If today is Monday, what day will it be 3 days later?",
+    "options": [
+      "Thursday",
+      "Friday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "answer": "Thursday"
+  },
+  {
+    "id": 10,
+    "question": "If 3x = 12, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which ancient wonder was a giant statue of the Greek god Helios?",
+    "options": [
+      "Colossus of Rhodes",
+      "Great Pyramid of Giza",
+      "Statue of Zeus at Olympia",
+      "Lighthouse of Alexandria"
+    ],
+    "answer": "Colossus of Rhodes"
+  },
+  {
+    "id": 2,
+    "question": "Where is the Great Pyramid of Giza located?",
+    "options": [
+      "Mexico",
+      "Egypt",
+      "Greece",
+      "Italy"
+    ],
+    "answer": "Egypt"
+  },
+  {
+    "id": 3,
+    "question": "Which wonder was a giant tomb built for Mausolus?",
+    "options": [
+      "Temple of Artemis",
+      "Mausoleum at Halicarnassus",
+      "Hanging Gardens of Babylon",
+      "Lighthouse of Alexandria"
+    ],
+    "answer": "Mausoleum at Halicarnassus"
+  },
+  {
+    "id": 4,
+    "question": "Which wonder was famous for its hanging gardens?",
+    "options": [
+      "Temple of Artemis",
+      "Hanging Gardens of Babylon",
+      "Statue of Zeus",
+      "Great Pyramid of Giza"
+    ],
+    "answer": "Hanging Gardens of Babylon"
+  },
+  {
+    "id": 5,
+    "question": "The Statue of Zeus at Olympia was dedicated to which god?",
+    "options": [
+      "Zeus",
+      "Apollo",
+      "Poseidon",
+      "Hades"
+    ],
+    "answer": "Zeus"
+  },
+  {
+    "id": 6,
+    "question": "What was the Lighthouse of Alexandria used for?",
+    "options": [
+      "Religious ceremonies",
+      "Guiding ships safely to port",
+      "A tomb",
+      "A palace"
+    ],
+    "answer": "Guiding ships safely to port"
+  },
+  {
+    "id": 7,
+    "question": "Where was the Temple of Artemis located?",
+    "options": [
+      "Ephesus",
+      "Rome",
+      "Athens",
+      "Babylon"
+    ],
+    "answer": "Ephesus"
+  },
+  {
+    "id": 8,
+    "question": "Which wonder is the only one still largely intact today?",
+    "options": [
+      "Great Pyramid of Giza",
+      "Colossus of Rhodes",
+      "Statue of Zeus at Olympia",
+      "Mausoleum at Halicarnassus"
+    ],
+    "answer": "Great Pyramid of Giza"
+  },
+  {
+    "id": 9,
+    "question": "The Hanging Gardens of Babylon were said to be built by which king?",
+    "options": [
+      "Nebuchadnezzar II",
+      "Alexander the Great",
+      "Ramses II",
+      "Julius Caesar"
+    ],
+    "answer": "Nebuchadnezzar II"
+  },
+  {
+    "id": 10,
+    "question": "Which wonder was considered a masterpiece of ancient architecture and stood in Halicarnassus?",
+    "options": [
+      "Mausoleum at Halicarnassus",
+      "Lighthouse of Alexandria",
+      "Temple of Artemis",
+      "Colossus of Rhodes"
+    ],
+    "answer": "Mausoleum at Halicarnassus"
+  }
+]

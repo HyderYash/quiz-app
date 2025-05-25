@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Who is known as the founder of Microsoft?",
+    "options": [
+      "Steve Jobs",
+      "Bill Gates",
+      "Mark Zuckerberg",
+      "Elon Musk"
+    ],
+    "answer": "Bill Gates"
+  },
+  {
+    "id": 2,
+    "question": "What is a 'startup'?",
+    "options": [
+      "A large company",
+      "A newly established business",
+      "A government agency",
+      "A non-profit organization"
+    ],
+    "answer": "A newly established business"
+  },
+  {
+    "id": 3,
+    "question": "What term describes a business owner who takes on financial risks?",
+    "options": [
+      "Investor",
+      "Entrepreneur",
+      "Employee",
+      "Manager"
+    ],
+    "answer": "Entrepreneur"
+  },
+  {
+    "id": 4,
+    "question": "What is 'venture capital'?",
+    "options": [
+      "Government funding",
+      "Personal savings",
+      "Investment from private investors",
+      "Bank loans"
+    ],
+    "answer": "Investment from private investors"
+  },
+  {
+    "id": 5,
+    "question": "Which entrepreneur founded Tesla and SpaceX?",
+    "options": [
+      "Jeff Bezos",
+      "Elon Musk",
+      "Richard Branson",
+      "Warren Buffett"
+    ],
+    "answer": "Elon Musk"
+  },
+  {
+    "id": 6,
+    "question": "What is a 'business plan'?",
+    "options": [
+      "A document outlining business goals and strategies",
+      "A marketing campaign",
+      "A financial statement",
+      "A product design"
+    ],
+    "answer": "A document outlining business goals and strategies"
+  },
+  {
+    "id": 7,
+    "question": "What does 'IPO' stand for in business?",
+    "options": [
+      "Initial Public Offering",
+      "International Product Order",
+      "Internal Profit Objective",
+      "Investment Plan Option"
+    ],
+    "answer": "Initial Public Offering"
+  },
+  {
+    "id": 8,
+    "question": "Which company was started in a garage by Steve Jobs and Steve Wozniak?",
+    "options": [
+      "Microsoft",
+      "Apple",
+      "Google",
+      "Amazon"
+    ],
+    "answer": "Apple"
+  },
+  {
+    "id": 9,
+    "question": "What is the main goal of entrepreneurship?",
+    "options": [
+      "To create and grow a business",
+      "To work for a company",
+      "To get a loan",
+      "To manage employees"
+    ],
+    "answer": "To create and grow a business"
+  },
+  {
+    "id": 10,
+    "question": "What does MVP stand for in startups?",
+    "options": [
+      "Most Valuable Player",
+      "Minimum Viable Product",
+      "Major Venture Partner",
+      "Market Value Projection"
+    ],
+    "answer": "Minimum Viable Product"
+  }
+]

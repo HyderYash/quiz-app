@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "How many players are there in a cricket team?",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "answer": "11"
+  },
+  {
+    "id": 2,
+    "question": "Who holds the record for the highest individual score in a One Day International (ODI)?",
+    "options": [
+      "Rohit Sharma",
+      "Sachin Tendulkar",
+      "Virat Kohli",
+      "Martin Guptill"
+    ],
+    "answer": "Rohit Sharma"
+  },
+  {
+    "id": 3,
+    "question": "What is the term used when a batsman gets out without scoring any runs?",
+    "options": [
+      "Duck",
+      "Century",
+      "Boundary",
+      "Over"
+    ],
+    "answer": "Duck"
+  },
+  {
+    "id": 4,
+    "question": "Which country won the first Cricket World Cup?",
+    "options": [
+      "West Indies",
+      "Australia",
+      "England",
+      "India"
+    ],
+    "answer": "West Indies"
+  },
+  {
+    "id": 5,
+    "question": "What is the maximum number of overs in a Twenty20 cricket match per side?",
+    "options": [
+      "20",
+      "50",
+      "10",
+      "40"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 6,
+    "question": "What is a 'hat-trick' in cricket?",
+    "options": [
+      "Taking three wickets in three consecutive balls",
+      "Scoring three sixes in a row",
+      "Three catches by one fielder",
+      "Three runs in one ball"
+    ],
+    "answer": "Taking three wickets in three consecutive balls"
+  },
+  {
+    "id": 7,
+    "question": "Which player is known as the 'Little Master'?",
+    "options": [
+      "Sachin Tendulkar",
+      "Brian Lara",
+      "MS Dhoni",
+      "Jacques Kallis"
+    ],
+    "answer": "Sachin Tendulkar"
+  },
+  {
+    "id": 8,
+    "question": "What is the term for a ball that is bowled and hits the batsman's pads, potentially causing him to be out?",
+    "options": [
+      "LBW",
+      "No ball",
+      "Wide ball",
+      "Yorker"
+    ],
+    "answer": "LBW"
+  },
+  {
+    "id": 9,
+    "question": "Which cricket ground is known as the 'Home of Cricket'?",
+    "options": [
+      "Lord's",
+      "Eden Gardens",
+      "Melbourne Cricket Ground",
+      "Wankhede Stadium"
+    ],
+    "answer": "Lord's"
+  },
+  {
+    "id": 10,
+    "question": "How many runs is a boundary worth if the ball hits the ground before reaching the boundary?",
+    "options": [
+      "4",
+      "6",
+      "2",
+      "1"
+    ],
+    "answer": "4"
+  }
+]

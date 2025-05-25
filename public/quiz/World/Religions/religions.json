@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which religion is based on the teachings of Prophet Muhammad?",
+    "options": [
+      "Islam",
+      "Christianity",
+      "Judaism",
+      "Buddhism"
+    ],
+    "answer": "Islam"
+  },
+  {
+    "id": 2,
+    "question": "What is the holy book of Christianity?",
+    "options": [
+      "Bible",
+      "Quran",
+      "Torah",
+      "Vedas"
+    ],
+    "answer": "Bible"
+  },
+  {
+    "id": 3,
+    "question": "Which religion follows the teachings of Siddhartha Gautama?",
+    "options": [
+      "Buddhism",
+      "Hinduism",
+      "Christianity",
+      "Islam"
+    ],
+    "answer": "Buddhism"
+  },
+  {
+    "id": 4,
+    "question": "What is the sacred text of Judaism?",
+    "options": [
+      "Torah",
+      "Bible",
+      "Quran",
+      "Tripitaka"
+    ],
+    "answer": "Torah"
+  },
+  {
+    "id": 5,
+    "question": "Which religion is associated with the concepts of karma and reincarnation?",
+    "options": [
+      "Hinduism",
+      "Christianity",
+      "Islam",
+      "Judaism"
+    ],
+    "answer": "Hinduism"
+  },
+  {
+    "id": 6,
+    "question": "Where was Christianity founded?",
+    "options": [
+      "Middle East",
+      "India",
+      "China",
+      "Europe"
+    ],
+    "answer": "Middle East"
+  },
+  {
+    "id": 7,
+    "question": "What is the place of worship for Muslims called?",
+    "options": [
+      "Mosque",
+      "Church",
+      "Synagogue",
+      "Temple"
+    ],
+    "answer": "Mosque"
+  },
+  {
+    "id": 8,
+    "question": "Which religion has the Eightfold Path as a key teaching?",
+    "options": [
+      "Buddhism",
+      "Christianity",
+      "Islam",
+      "Hinduism"
+    ],
+    "answer": "Buddhism"
+  },
+  {
+    "id": 9,
+    "question": "What is the religious festival of lights celebrated by Hindus called?",
+    "options": [
+      "Diwali",
+      "Eid",
+      "Christmas",
+      "Hanukkah"
+    ],
+    "answer": "Diwali"
+  },
+  {
+    "id": 10,
+    "question": "Which religion reveres the Ganges River as sacred?",
+    "options": [
+      "Hinduism",
+      "Islam",
+      "Christianity",
+      "Judaism"
+    ],
+    "answer": "Hinduism"
+  }
+]

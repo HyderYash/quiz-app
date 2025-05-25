@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "options": [
+      "Paris",
+      "Berlin",
+      "Madrid",
+      "Rome"
+    ],
+    "answer": "Paris"
+  },
+  {
+    "id": 2,
+    "question": "What is the capital of Japan?",
+    "options": [
+      "Tokyo",
+      "Seoul",
+      "Bangkok",
+      "Beijing"
+    ],
+    "answer": "Tokyo"
+  },
+  {
+    "id": 3,
+    "question": "What is the capital of Australia?",
+    "options": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "answer": "Canberra"
+  },
+  {
+    "id": 4,
+    "question": "What is the capital of Canada?",
+    "options": [
+      "Ottawa",
+      "Toronto",
+      "Vancouver",
+      "Montreal"
+    ],
+    "answer": "Ottawa"
+  },
+  {
+    "id": 5,
+    "question": "What is the capital of Brazil?",
+    "options": [
+      "Brasília",
+      "Rio de Janeiro",
+      "São Paulo",
+      "Salvador"
+    ],
+    "answer": "Brasília"
+  },
+  {
+    "id": 6,
+    "question": "What is the capital of Egypt?",
+    "options": [
+      "Cairo",
+      "Alexandria",
+      "Luxor",
+      "Giza"
+    ],
+    "answer": "Cairo"
+  },
+  {
+    "id": 7,
+    "question": "What is the capital of Russia?",
+    "options": [
+      "Moscow",
+      "Saint Petersburg",
+      "Novosibirsk",
+      "Kazan"
+    ],
+    "answer": "Moscow"
+  },
+  {
+    "id": 8,
+    "question": "What is the capital of India?",
+    "options": [
+      "New Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "New Delhi"
+  },
+  {
+    "id": 9,
+    "question": "What is the capital of South Africa?",
+    "options": [
+      "Pretoria",
+      "Johannesburg",
+      "Cape Town",
+      "Durban"
+    ],
+    "answer": "Pretoria"
+  },
+  {
+    "id": 10,
+    "question": "What is the capital of Germany?",
+    "options": [
+      "Berlin",
+      "Munich",
+      "Frankfurt",
+      "Hamburg"
+    ],
+    "answer": "Berlin"
+  }
+]

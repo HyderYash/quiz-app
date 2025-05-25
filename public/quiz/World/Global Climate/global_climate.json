@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What climate zone is characterized by very low temperatures and ice-covered landscapes?",
+    "options": [
+      "Polar",
+      "Tropical",
+      "Temperate",
+      "Desert"
+    ],
+    "answer": "Polar"
+  },
+  {
+    "id": 2,
+    "question": "Which region is known for having a tropical rainforest climate?",
+    "options": [
+      "Amazon Basin",
+      "Sahara Desert",
+      "Siberia",
+      "Gobi Desert"
+    ],
+    "answer": "Amazon Basin"
+  },
+  {
+    "id": 3,
+    "question": "What type of climate is typical of the Mediterranean region?",
+    "options": [
+      "Hot dry summers and mild wet winters",
+      "Cold all year round",
+      "Heavy rainfall all year",
+      "Arid and hot"
+    ],
+    "answer": "Hot dry summers and mild wet winters"
+  },
+  {
+    "id": 4,
+    "question": "What is the main cause of global warming?",
+    "options": [
+      "Increase in greenhouse gases",
+      "Decrease in solar activity",
+      "Volcanic eruptions",
+      "Earthquakes"
+    ],
+    "answer": "Increase in greenhouse gases"
+  },
+  {
+    "id": 5,
+    "question": "Which gas is most responsible for the greenhouse effect?",
+    "options": [
+      "Carbon dioxide (CO2)",
+      "Oxygen",
+      "Nitrogen",
+      "Helium"
+    ],
+    "answer": "Carbon dioxide (CO2)"
+  },
+  {
+    "id": 6,
+    "question": "What phenomenon causes the Earth's average temperature to rise due to trapped heat?",
+    "options": [
+      "Greenhouse effect",
+      "El Niño",
+      "Ozone depletion",
+      "Monsoon"
+    ],
+    "answer": "Greenhouse effect"
+  },
+  {
+    "id": 7,
+    "question": "Which climate type is characterized by very little rainfall and extreme heat?",
+    "options": [
+      "Desert",
+      "Tundra",
+      "Temperate",
+      "Savanna"
+    ],
+    "answer": "Desert"
+  },
+  {
+    "id": 8,
+    "question": "What term describes the seasonal reversal of winds and rains in South Asia?",
+    "options": [
+      "Monsoon",
+      "Cyclone",
+      "Hurricane",
+      "Tornado"
+    ],
+    "answer": "Monsoon"
+  },
+  {
+    "id": 9,
+    "question": "Which international agreement aims to reduce global greenhouse gas emissions?",
+    "options": [
+      "Paris Agreement",
+      "Kyoto Protocol",
+      "Montreal Protocol",
+      "Geneva Convention"
+    ],
+    "answer": "Paris Agreement"
+  },
+  {
+    "id": 10,
+    "question": "Which of these is a consequence of climate change?",
+    "options": [
+      "Rising sea levels",
+      "Decrease in volcanic eruptions",
+      "Increase in Earth's gravity",
+      "Fewer earthquakes"
+    ],
+    "answer": "Rising sea levels"
+  }
+]

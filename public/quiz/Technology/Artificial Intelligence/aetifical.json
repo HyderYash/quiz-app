@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does AI stand for?",
+    "options": [
+      "Artificial Intelligence",
+      "Automated Information",
+      "Advanced Internet",
+      "Applied Innovation"
+    ],
+    "answer": "Artificial Intelligence"
+  },
+  {
+    "id": 2,
+    "question": "Which programming language is commonly used for AI development?",
+    "options": [
+      "Python",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "answer": "Python"
+  },
+  {
+    "id": 3,
+    "question": "What is machine learning?",
+    "options": [
+      "A subset of AI where machines learn from data",
+      "A type of hardware",
+      "A programming language",
+      "A database system"
+    ],
+    "answer": "A subset of AI where machines learn from data"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is an example of AI?",
+    "options": [
+      "Chatbots",
+      "Microwaves",
+      "Refrigerators",
+      "Calculators"
+    ],
+    "answer": "Chatbots"
+  },
+  {
+    "id": 5,
+    "question": "What is 'Natural Language Processing' (NLP)?",
+    "options": [
+      "AI technique to understand and generate human language",
+      "Programming language for AI",
+      "A type of database",
+      "A networking protocol"
+    ],
+    "answer": "AI technique to understand and generate human language"
+  },
+  {
+    "id": 6,
+    "question": "Which AI concept involves training a model using labeled data?",
+    "options": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Deep Learning"
+    ],
+    "answer": "Supervised Learning"
+  },
+  {
+    "id": 7,
+    "question": "What is the name of the AI that defeated the world champion in the game of Go?",
+    "options": [
+      "AlphaGo",
+      "Deep Blue",
+      "Watson",
+      "Siri"
+    ],
+    "answer": "AlphaGo"
+  },
+  {
+    "id": 8,
+    "question": "Which branch of AI is focused on mimicking the human brain's neural networks?",
+    "options": [
+      "Deep Learning",
+      "Machine Learning",
+      "Expert Systems",
+      "Robotics"
+    ],
+    "answer": "Deep Learning"
+  },
+  {
+    "id": 9,
+    "question": "What does 'Turing Test' assess?",
+    "options": [
+      "A machine's ability to exhibit human-like intelligence",
+      "Speed of a computer",
+      "Memory capacity",
+      "Programming skill"
+    ],
+    "answer": "A machine's ability to exhibit human-like intelligence"
+  },
+  {
+    "id": 10,
+    "question": "Who is known as the 'father of Artificial Intelligence'?",
+    "options": [
+      "John McCarthy",
+      "Alan Turing",
+      "Geoffrey Hinton",
+      "Marvin Minsky"
+    ],
+    "answer": "John McCarthy"
+  }
+]

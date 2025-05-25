@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does IPO stand for in the stock market?",
+    "options": [
+      "Initial Public Offering",
+      "International Purchase Order",
+      "Instant Price Offer",
+      "Internal Profit Opportunity"
+    ],
+    "answer": "Initial Public Offering"
+  },
+  {
+    "id": 2,
+    "question": "What is a stock?",
+    "options": [
+      "A loan to a company",
+      "Ownership share in a company",
+      "A type of bond",
+      "Company’s debt"
+    ],
+    "answer": "Ownership share in a company"
+  },
+  {
+    "id": 3,
+    "question": "What is a dividend?",
+    "options": [
+      "A company's profit distribution to shareholders",
+      "The price of a stock",
+      "A tax on stocks",
+      "A fee paid to brokers"
+    ],
+    "answer": "A company's profit distribution to shareholders"
+  },
+  {
+    "id": 4,
+    "question": "Which index represents 30 large publicly owned companies in the US?",
+    "options": [
+      "NASDAQ",
+      "Dow Jones Industrial Average",
+      "S&P 500",
+      "Russell 2000"
+    ],
+    "answer": "Dow Jones Industrial Average"
+  },
+  {
+    "id": 5,
+    "question": "What does 'bull market' mean?",
+    "options": [
+      "Market is rising",
+      "Market is falling",
+      "Market is stable",
+      "Market is unpredictable"
+    ],
+    "answer": "Market is rising"
+  },
+  {
+    "id": 6,
+    "question": "What is a 'bear market'?",
+    "options": [
+      "Market is falling",
+      "Market is rising",
+      "Market is stable",
+      "Market is volatile"
+    ],
+    "answer": "Market is falling"
+  },
+  {
+    "id": 7,
+    "question": "What is 'market capitalization'?",
+    "options": [
+      "Total value of a company's outstanding shares",
+      "Company's yearly revenue",
+      "Company's net profit",
+      "Number of stocks available"
+    ],
+    "answer": "Total value of a company's outstanding shares"
+  },
+  {
+    "id": 8,
+    "question": "Which US stock exchange is the largest by market capitalization?",
+    "options": [
+      "NYSE",
+      "NASDAQ",
+      "AMEX",
+      "TSX"
+    ],
+    "answer": "NYSE"
+  },
+  {
+    "id": 9,
+    "question": "What is a 'blue chip stock'?",
+    "options": [
+      "Stock of a well-established and financially sound company",
+      "Stock with high volatility",
+      "A penny stock",
+      "Stock of a startup company"
+    ],
+    "answer": "Stock of a well-established and financially sound company"
+  },
+  {
+    "id": 10,
+    "question": "What does 'P/E ratio' stand for?",
+    "options": [
+      "Price to Earnings ratio",
+      "Profit to Equity ratio",
+      "Price to Expense ratio",
+      "Performance to Earnings ratio"
+    ],
+    "answer": "Price to Earnings ratio"
+  }
+]

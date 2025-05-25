@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary purpose of a rocket’s thrusters?",
+    "options": [
+      "To provide thrust",
+      "To generate electricity",
+      "To steer the rocket",
+      "To cool the engine"
+    ],
+    "answer": "To provide thrust"
+  },
+  {
+    "id": 2,
+    "question": "Which was the first artificial satellite launched into space?",
+    "options": [
+      "Sputnik 1",
+      "Explorer 1",
+      "Apollo 11",
+      "Vostok 1"
+    ],
+    "answer": "Sputnik 1"
+  },
+  {
+    "id": 3,
+    "question": "What does NASA stand for?",
+    "options": [
+      "National Aeronautics and Space Administration",
+      "National Aerospace and Space Agency",
+      "National Aerodynamics and Space Administration",
+      "National Aviation and Space Agency"
+    ],
+    "answer": "National Aeronautics and Space Administration"
+  },
+  {
+    "id": 4,
+    "question": "Which planet is known as the ‘Red Planet’?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 5,
+    "question": "What type of engine is commonly used in commercial airplanes?",
+    "options": [
+      "Jet engine",
+      "Rocket engine",
+      "Electric motor",
+      "Steam engine"
+    ],
+    "answer": "Jet engine"
+  },
+  {
+    "id": 6,
+    "question": "What is the name of the first human to travel into space?",
+    "options": [
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "John Glenn"
+    ],
+    "answer": "Yuri Gagarin"
+  },
+  {
+    "id": 7,
+    "question": "What does the term 'aerodynamics' refer to?",
+    "options": [
+      "The study of air movement around objects",
+      "The study of water movement",
+      "The study of sound waves",
+      "The study of outer space"
+    ],
+    "answer": "The study of air movement around objects"
+  },
+  {
+    "id": 8,
+    "question": "Which spacecraft carried the first humans to the moon?",
+    "options": [
+      "Apollo 11",
+      "Sputnik 2",
+      "Challenger",
+      "Voyager 1"
+    ],
+    "answer": "Apollo 11"
+  },
+  {
+    "id": 9,
+    "question": "What is the name of the protective layer that shields Earth from meteoroids?",
+    "options": [
+      "Atmosphere",
+      "Magnetosphere",
+      "Ozone layer",
+      "Exosphere"
+    ],
+    "answer": "Atmosphere"
+  },
+  {
+    "id": 10,
+    "question": "Which aerospace company developed the Falcon 9 rocket?",
+    "options": [
+      "SpaceX",
+      "Blue Origin",
+      "Boeing",
+      "Lockheed Martin"
+    ],
+    "answer": "SpaceX"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which kingdom was ruled by King Henry VIII?",
+    "options": [
+      "France",
+      "Spain",
+      "England",
+      "Portugal"
+    ],
+    "answer": "England"
+  },
+  {
+    "id": 2,
+    "question": "The Kingdom of Kush was located in which present-day country?",
+    "options": [
+      "Sudan",
+      "Egypt",
+      "Ethiopia",
+      "Libya"
+    ],
+    "answer": "Sudan"
+  },
+  {
+    "id": 3,
+    "question": "Which kingdom was famous for its powerful pharaohs and pyramids?",
+    "options": [
+      "Mesopotamian",
+      "Egyptian",
+      "Persian",
+      "Roman"
+    ],
+    "answer": "Egyptian"
+  },
+  {
+    "id": 4,
+    "question": "The Kingdom of Aksum was located in which modern country?",
+    "options": [
+      "Ethiopia",
+      "Ghana",
+      "Morocco",
+      "Tunisia"
+    ],
+    "answer": "Ethiopia"
+  },
+  {
+    "id": 5,
+    "question": "Which kingdom was ruled by Charlemagne?",
+    "options": [
+      "Frankish Kingdom",
+      "Mayan Kingdom",
+      "Zulu Kingdom",
+      "Kingdom of England"
+    ],
+    "answer": "Frankish Kingdom"
+  },
+  {
+    "id": 6,
+    "question": "The Kingdom of Mali was known for which famous ruler?",
+    "options": [
+      "Mansa Musa",
+      "Sundiata Keita",
+      "Askia the Great",
+      "Shaka Zulu"
+    ],
+    "answer": "Mansa Musa"
+  },
+  {
+    "id": 7,
+    "question": "The Kingdom of Sparta was part of which ancient civilization?",
+    "options": [
+      "Roman",
+      "Greek",
+      "Egyptian",
+      "Persian"
+    ],
+    "answer": "Greek"
+  },
+  {
+    "id": 8,
+    "question": "Which kingdom was known for its warriors called Samurai?",
+    "options": [
+      "China",
+      "Japan",
+      "Korea",
+      "Mongolia"
+    ],
+    "answer": "Japan"
+  },
+  {
+    "id": 9,
+    "question": "The Kingdom of Castile was part of which modern country?",
+    "options": [
+      "Italy",
+      "Spain",
+      "Portugal",
+      "France"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "id": 10,
+    "question": "Which kingdom was famous for building the Great Wall?",
+    "options": [
+      "Ming Dynasty",
+      "Qin Dynasty",
+      "Han Dynasty",
+      "Tang Dynasty"
+    ],
+    "answer": "Qin Dynasty"
+  }
+]

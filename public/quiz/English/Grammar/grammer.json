@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the past tense of the verb 'go'?",
+    "options": [
+      "Goed",
+      "Went",
+      "Gone",
+      "Going"
+    ],
+    "answer": "Went"
+  },
+  {
+    "id": 2,
+    "question": "Which word is a pronoun?",
+    "options": [
+      "He",
+      "Apple",
+      "Run",
+      "Beautiful"
+    ],
+    "answer": "He"
+  },
+  {
+    "id": 3,
+    "question": "Choose the correct article: '___ apple a day keeps the doctor away.'",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "answer": "An"
+  },
+  {
+    "id": 4,
+    "question": "Identify the adjective in the sentence: 'She has a red car.'",
+    "options": [
+      "She",
+      "Has",
+      "Red",
+      "Car"
+    ],
+    "answer": "Red"
+  },
+  {
+    "id": 5,
+    "question": "What type of sentence is this: 'Close the door.'?",
+    "options": [
+      "Declarative",
+      "Interrogative",
+      "Imperative",
+      "Exclamatory"
+    ],
+    "answer": "Imperative"
+  },
+  {
+    "id": 6,
+    "question": "Which is a conjunction?",
+    "options": [
+      "Because",
+      "Run",
+      "Beautiful",
+      "Quickly"
+    ],
+    "answer": "Because"
+  },
+  {
+    "id": 7,
+    "question": "Select the correct form: 'She ___ to school every day.'",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+    ],
+    "answer": "goes"
+  },
+  {
+    "id": 8,
+    "question": "Identify the adverb in the sentence: 'He runs quickly.'",
+    "options": [
+      "He",
+      "Runs",
+      "Quickly",
+      "None"
+    ],
+    "answer": "Quickly"
+  },
+  {
+    "id": 9,
+    "question": "What is the plural form of 'child'?",
+    "options": [
+      "Childs",
+      "Childes",
+      "Children",
+      "Child"
+    ],
+    "answer": "Children"
+  },
+  {
+    "id": 10,
+    "question": "Which is a correct sentence?",
+    "options": [
+      "She don't like apples.",
+      "She doesn't likes apples.",
+      "She doesn't like apples.",
+      "She don't likes apples."
+    ],
+    "answer": "She doesn't like apples."
+  }
+]

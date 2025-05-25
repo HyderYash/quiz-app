@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the synonym of 'happy'?",
+    "options": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Tired"
+    ],
+    "answer": "Joyful"
+  },
+  {
+    "id": 2,
+    "question": "What is the antonym of 'difficult'?",
+    "options": [
+      "Hard",
+      "Easy",
+      "Complex",
+      "Tough"
+    ],
+    "answer": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "What does the word 'benevolent' mean?",
+    "options": [
+      "Kind and generous",
+      "Evil",
+      "Lazy",
+      "Strong"
+    ],
+    "answer": "Kind and generous"
+  },
+  {
+    "id": 4,
+    "question": "Choose the correct meaning of 'ubiquitous'.",
+    "options": [
+      "Rare",
+      "Present everywhere",
+      "Expensive",
+      "Unusual"
+    ],
+    "answer": "Present everywhere"
+  },
+  {
+    "id": 5,
+    "question": "What is a 'homonym'?",
+    "options": [
+      "Words with same spelling but different meanings",
+      "Opposite words",
+      "Words that rhyme",
+      "Words with same meaning"
+    ],
+    "answer": "Words with same spelling but different meanings"
+  },
+  {
+    "id": 6,
+    "question": "What does 'meticulous' mean?",
+    "options": [
+      "Careful and precise",
+      "Careless",
+      "Quick",
+      "Strong"
+    ],
+    "answer": "Careful and precise"
+  },
+  {
+    "id": 7,
+    "question": "Choose the synonym of 'big'.",
+    "options": [
+      "Tiny",
+      "Large",
+      "Small",
+      "Short"
+    ],
+    "answer": "Large"
+  },
+  {
+    "id": 8,
+    "question": "What is the meaning of 'candid'?",
+    "options": [
+      "Honest and straightforward",
+      "Dishonest",
+      "Secretive",
+      "Unfriendly"
+    ],
+    "answer": "Honest and straightforward"
+  },
+  {
+    "id": 9,
+    "question": "What does the word 'zealous' mean?",
+    "options": [
+      "Lazy",
+      "Passionate",
+      "Bored",
+      "Calm"
+    ],
+    "answer": "Passionate"
+  },
+  {
+    "id": 10,
+    "question": "Choose the antonym of 'generous'.",
+    "options": [
+      "Kind",
+      "Selfish",
+      "Helpful",
+      "Friendly"
+    ],
+    "answer": "Selfish"
+  }
+]

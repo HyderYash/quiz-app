@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which company is known for its 'Just Do It' slogan?",
+    "options": [
+      "Adidas",
+      "Reebok",
+      "Nike",
+      "Puma"
+    ],
+    "answer": "Nike"
+  },
+  {
+    "id": 2,
+    "question": "Which company is the parent of Google?",
+    "options": [
+      "Alphabet Inc.",
+      "Meta",
+      "Amazon",
+      "Microsoft"
+    ],
+    "answer": "Alphabet Inc."
+  },
+  {
+    "id": 3,
+    "question": "Who is the founder of Amazon?",
+    "options": [
+      "Bill Gates",
+      "Jeff Bezos",
+      "Elon Musk",
+      "Warren Buffett"
+    ],
+    "answer": "Jeff Bezos"
+  },
+  {
+    "id": 4,
+    "question": "Which company is known for producing iPhones?",
+    "options": [
+      "Samsung",
+      "Google",
+      "Apple",
+      "Sony"
+    ],
+    "answer": "Apple"
+  },
+  {
+    "id": 5,
+    "question": "What is the term for a market structure with a single seller?",
+    "options": [
+      "Oligopoly",
+      "Monopoly",
+      "Monopsony",
+      "Perfect Competition"
+    ],
+    "answer": "Monopoly"
+  },
+  {
+    "id": 6,
+    "question": "Which company did Elon Musk acquire in 2022?",
+    "options": [
+      "Tesla",
+      "OpenAI",
+      "SpaceX",
+      "Twitter"
+    ],
+    "answer": "Twitter"
+  },
+  {
+    "id": 7,
+    "question": "Which fast food company is famous for the Big Mac?",
+    "options": [
+      "Burger King",
+      "KFC",
+      "McDonald's",
+      "Wendy's"
+    ],
+    "answer": "McDonald's"
+  },
+  {
+    "id": 8,
+    "question": "What is the world's largest e-commerce company by revenue?",
+    "options": [
+      "eBay",
+      "Alibaba",
+      "Amazon",
+      "Walmart"
+    ],
+    "answer": "Amazon"
+  },
+  {
+    "id": 9,
+    "question": "Which automobile company owns the luxury brand Lexus?",
+    "options": [
+      "Toyota",
+      "Honda",
+      "Ford",
+      "Nissan"
+    ],
+    "answer": "Toyota"
+  },
+  {
+    "id": 10,
+    "question": "Which financial services company is known for the slogan 'What's in your wallet?'",
+    "options": [
+      "Chase",
+      "American Express",
+      "Capital One",
+      "CitiBank"
+    ],
+    "answer": "Capital One"
+  }
+]

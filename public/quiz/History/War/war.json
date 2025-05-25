@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "In which year did World War I begin?",
+    "options": [
+      "1914",
+      "1918",
+      "1939",
+      "1945"
+    ],
+    "answer": "1914"
+  },
+  {
+    "id": 2,
+    "question": "Which event triggered the start of World War I?",
+    "options": [
+      "Assassination of Archduke Franz Ferdinand",
+      "Bombing of Pearl Harbor",
+      "Invasion of Poland",
+      "Treaty of Versailles"
+    ],
+    "answer": "Assassination of Archduke Franz Ferdinand"
+  },
+  {
+    "id": 3,
+    "question": "Who were the main opposing sides in the Cold War?",
+    "options": [
+      "USA vs USSR",
+      "USA vs Germany",
+      "UK vs France",
+      "Japan vs China"
+    ],
+    "answer": "USA vs USSR"
+  },
+  {
+    "id": 4,
+    "question": "The Battle of Hastings took place in which year?",
+    "options": [
+      "1066",
+      "1215",
+      "1415",
+      "1815"
+    ],
+    "answer": "1066"
+  },
+  {
+    "id": 5,
+    "question": "Who was the British Prime Minister during most of World War II?",
+    "options": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Margaret Thatcher",
+      "Tony Blair"
+    ],
+    "answer": "Winston Churchill"
+  },
+  {
+    "id": 6,
+    "question": "The Vietnam War primarily involved which two countries?",
+    "options": [
+      "North Vietnam and South Vietnam",
+      "USA and USSR",
+      "China and Japan",
+      "France and Germany"
+    ],
+    "answer": "North Vietnam and South Vietnam"
+  },
+  {
+    "id": 7,
+    "question": "Which treaty ended World War I?",
+    "options": [
+      "Treaty of Versailles",
+      "Treaty of Paris",
+      "Treaty of Tordesillas",
+      "Treaty of Ghent"
+    ],
+    "answer": "Treaty of Versailles"
+  },
+  {
+    "id": 8,
+    "question": "Which war was fought between the North and South regions of the United States?",
+    "options": [
+      "Civil War",
+      "Revolutionary War",
+      "World War I",
+      "War of 1812"
+    ],
+    "answer": "Civil War"
+  },
+  {
+    "id": 9,
+    "question": "The Battle of Stalingrad was a major turning point in which war?",
+    "options": [
+      "World War I",
+      "World War II",
+      "Cold War",
+      "Korean War"
+    ],
+    "answer": "World War II"
+  },
+  {
+    "id": 10,
+    "question": "Who was the leader of Nazi Germany during World War II?",
+    "options": [
+      "Adolf Hitler",
+      "Joseph Stalin",
+      "Benito Mussolini",
+      "Winston Churchill"
+    ],
+    "answer": "Adolf Hitler"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which city is famous for the landmark 'Christ the Redeemer' statue?",
+    "options": [
+      "Rio de Janeiro",
+      "Buenos Aires",
+      "Lima",
+      "Santiago"
+    ],
+    "answer": "Rio de Janeiro"
+  },
+  {
+    "id": 2,
+    "question": "Where can you visit the famous 'Great Barrier Reef'?",
+    "options": [
+      "Australia",
+      "Fiji",
+      "Maldives",
+      "Hawaii"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "id": 3,
+    "question": "Which country is home to the ancient city of Petra?",
+    "options": [
+      "Jordan",
+      "Egypt",
+      "Turkey",
+      "Greece"
+    ],
+    "answer": "Jordan"
+  },
+  {
+    "id": 4,
+    "question": "The Grand Canyon is located in which country?",
+    "options": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil"
+    ],
+    "answer": "United States"
+  },
+  {
+    "id": 5,
+    "question": "Which city is known as the 'City of Canals'?",
+    "options": [
+      "Venice",
+      "Amsterdam",
+      "Bangkok",
+      "Stockholm"
+    ],
+    "answer": "Venice"
+  },
+  {
+    "id": 6,
+    "question": "Where is the famous tourist attraction 'Angkor Wat' located?",
+    "options": [
+      "Cambodia",
+      "Thailand",
+      "Vietnam",
+      "Laos"
+    ],
+    "answer": "Cambodia"
+  },
+  {
+    "id": 7,
+    "question": "Which famous statue is located on Liberty Island?",
+    "options": [
+      "Statue of Liberty",
+      "Christ the Redeemer",
+      "The Thinker",
+      "Moai"
+    ],
+    "answer": "Statue of Liberty"
+  },
+  {
+    "id": 8,
+    "question": "Which city is home to the historic Acropolis?",
+    "options": [
+      "Athens",
+      "Rome",
+      "Istanbul",
+      "Barcelona"
+    ],
+    "answer": "Athens"
+  },
+  {
+    "id": 9,
+    "question": "Where is the famous tourist attraction 'Santorini' located?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Spain",
+      "Portugal"
+    ],
+    "answer": "Greece"
+  },
+  {
+    "id": 10,
+    "question": "Which country has the famous tourist attraction called 'Table Mountain'?",
+    "options": [
+      "South Africa",
+      "Kenya",
+      "Morocco",
+      "Egypt"
+    ],
+    "answer": "South Africa"
+  }
+]

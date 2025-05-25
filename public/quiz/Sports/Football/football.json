@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "How many players are there on a football team on the field?",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "answer": "11"
+  },
+  {
+    "id": 2,
+    "question": "Which country won the first FIFA World Cup?",
+    "options": [
+      "Uruguay",
+      "Brazil",
+      "Germany",
+      "Italy"
+    ],
+    "answer": "Uruguay"
+  },
+  {
+    "id": 3,
+    "question": "What is the duration of a standard professional football match?",
+    "options": [
+      "90 minutes",
+      "60 minutes",
+      "120 minutes",
+      "45 minutes"
+    ],
+    "answer": "90 minutes"
+  },
+  {
+    "id": 4,
+    "question": "Who is known as the 'King of Football'?",
+    "options": [
+      "Pelé",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Diego Maradona"
+    ],
+    "answer": "Pelé"
+  },
+  {
+    "id": 5,
+    "question": "Which country has won the most FIFA World Cups?",
+    "options": [
+      "Brazil",
+      "Germany",
+      "Italy",
+      "Argentina"
+    ],
+    "answer": "Brazil"
+  },
+  {
+    "id": 6,
+    "question": "What is it called when a player scores three goals in a single match?",
+    "options": [
+      "Hat-trick",
+      "Triple play",
+      "Double",
+      "Grand slam"
+    ],
+    "answer": "Hat-trick"
+  },
+  {
+    "id": 7,
+    "question": "Which position primarily defends the goal?",
+    "options": [
+      "Goalkeeper",
+      "Striker",
+      "Midfielder",
+      "Defender"
+    ],
+    "answer": "Goalkeeper"
+  },
+  {
+    "id": 8,
+    "question": "Which football competition is held every four years among European national teams?",
+    "options": [
+      "UEFA European Championship",
+      "Copa America",
+      "FIFA World Cup",
+      "CONCACAF Gold Cup"
+    ],
+    "answer": "UEFA European Championship"
+  },
+  {
+    "id": 9,
+    "question": "Which player has won the most Ballon d’Or awards?",
+    "options": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Michel Platini",
+      "Johan Cruyff"
+    ],
+    "answer": "Lionel Messi"
+  },
+  {
+    "id": 10,
+    "question": "What is the maximum number of substitutions allowed in a professional football match as of recent rules?",
+    "options": [
+      "5",
+      "3",
+      "7",
+      "6"
+    ],
+    "answer": "5"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Who is known as the 'King of Bollywood'?",
+    "options": [
+      "Aamir Khan",
+      "Salman Khan",
+      "Shah Rukh Khan",
+      "Hrithik Roshan"
+    ],
+    "answer": "Shah Rukh Khan"
+  },
+  {
+    "id": 2,
+    "question": "Which Bollywood movie had the song “Kal Ho Naa Ho”?",
+    "options": [
+      "Kabhi Khushi Kabhie Gham",
+      "Kal Ho Naa Ho",
+      "My Name is Khan",
+      "Dilwale"
+    ],
+    "answer": "Kal Ho Naa Ho"
+  },
+  {
+    "id": 3,
+    "question": "Who directed the movie '3 Idiots'?",
+    "options": [
+      "Karan Johar",
+      "Rakesh Roshan",
+      "Rajkumar Hirani",
+      "Sanjay Leela Bhansali"
+    ],
+    "answer": "Rajkumar Hirani"
+  },
+  {
+    "id": 4,
+    "question": "Which actress is known as the 'Queen of Bollywood'?",
+    "options": [
+      "Deepika Padukone",
+      "Alia Bhatt",
+      "Kangana Ranaut",
+      "Kareena Kapoor"
+    ],
+    "answer": "Kangana Ranaut"
+  },
+  {
+    "id": 5,
+    "question": "In which year was the movie 'Lagaan' released?",
+    "options": [
+      "1999",
+      "2001",
+      "2003",
+      "2005"
+    ],
+    "answer": "2001"
+  },
+  {
+    "id": 6,
+    "question": "What is the real name of Bollywood actor Akshay Kumar?",
+    "options": [
+      "Rajiv Hari Om Bhatia",
+      "Ravi Kumar",
+      "Amit Raj Khanna",
+      "Kunal Bhatia"
+    ],
+    "answer": "Rajiv Hari Om Bhatia"
+  },
+  {
+    "id": 7,
+    "question": "Which movie is the highest-grossing Bollywood film as of 2024?",
+    "options": [
+      "Dangal",
+      "Pathaan",
+      "Jawan",
+      "Baahubali 2 (Hindi version)"
+    ],
+    "answer": "Jawan"
+  },
+  {
+    "id": 8,
+    "question": "Which Bollywood actor played the lead role in 'Barfi!'?",
+    "options": [
+      "Ranbir Kapoor",
+      "Ranveer Singh",
+      "Varun Dhawan",
+      "Ayushmann Khurrana"
+    ],
+    "answer": "Ranbir Kapoor"
+  },
+  {
+    "id": 9,
+    "question": "Which Bollywood movie is based on the life of Milkha Singh?",
+    "options": [
+      "Dangal",
+      "Bhaag Milkha Bhaag",
+      "Mary Kom",
+      "Chak De! India"
+    ],
+    "answer": "Bhaag Milkha Bhaag"
+  },
+  {
+    "id": 10,
+    "question": "Who composed the music for 'Dil Se'?",
+    "options": [
+      "A.R. Rahman",
+      "Anu Malik",
+      "Vishal-Shekhar",
+      "Shankar-Ehsaan-Loy"
+    ],
+    "answer": "A.R. Rahman"
+  }
+]

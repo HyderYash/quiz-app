@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "In which year were the first modern Olympic Games held?",
+    "options": [
+      "1896",
+      "1900",
+      "1888",
+      "1912"
+    ],
+    "answer": "1896"
+  },
+  {
+    "id": 2,
+    "question": "Which city hosted the 2016 Summer Olympics?",
+    "options": [
+      "Rio de Janeiro",
+      "Tokyo",
+      "London",
+      "Beijing"
+    ],
+    "answer": "Rio de Janeiro"
+  },
+  {
+    "id": 3,
+    "question": "Which country has won the most Olympic gold medals overall?",
+    "options": [
+      "United States",
+      "Russia",
+      "China",
+      "Germany"
+    ],
+    "answer": "United States"
+  },
+  {
+    "id": 4,
+    "question": "Who is the most decorated Olympian of all time?",
+    "options": [
+      "Michael Phelps",
+      "Usain Bolt",
+      "Larisa Latynina",
+      "Mark Spitz"
+    ],
+    "answer": "Michael Phelps"
+  },
+  {
+    "id": 5,
+    "question": "Which sport is known as the ‘Queen of the Olympics’?",
+    "options": [
+      "Athletics",
+      "Swimming",
+      "Gymnastics",
+      "Boxing"
+    ],
+    "answer": "Athletics"
+  },
+  {
+    "id": 6,
+    "question": "How often are the Summer Olympic Games held?",
+    "options": [
+      "Every 4 years",
+      "Every 2 years",
+      "Every year",
+      "Every 6 years"
+    ],
+    "answer": "Every 4 years"
+  },
+  {
+    "id": 7,
+    "question": "Which city hosted the Winter Olympics in 2018?",
+    "options": [
+      "Pyeongchang",
+      "Sochi",
+      "Vancouver",
+      "Turin"
+    ],
+    "answer": "Pyeongchang"
+  },
+  {
+    "id": 8,
+    "question": "Which athlete lit the Olympic flame in the 1996 Atlanta Games?",
+    "options": [
+      "Muhammad Ali",
+      "Carl Lewis",
+      "Usain Bolt",
+      "Michael Johnson"
+    ],
+    "answer": "Muhammad Ali"
+  },
+  {
+    "id": 9,
+    "question": "Which country hosted the 2021 Tokyo Summer Olympics?",
+    "options": [
+      "Japan",
+      "China",
+      "South Korea",
+      "Australia"
+    ],
+    "answer": "Japan"
+  },
+  {
+    "id": 10,
+    "question": "What is the maximum number of athletes a country can enter in an individual Olympic event?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "answer": "3"
+  }
+]

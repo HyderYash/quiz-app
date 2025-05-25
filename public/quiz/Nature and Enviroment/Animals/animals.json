@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the largest land animal?",
+    "options": [
+      "Elephant",
+      "Giraffe",
+      "Hippopotamus",
+      "Rhino"
+    ],
+    "answer": "Elephant"
+  },
+  {
+    "id": 2,
+    "question": "Which animal is known as the 'King of the Jungle'?",
+    "options": [
+      "Lion",
+      "Tiger",
+      "Leopard",
+      "Cheetah"
+    ],
+    "answer": "Lion"
+  },
+  {
+    "id": 3,
+    "question": "What is the fastest land animal?",
+    "options": [
+      "Cheetah",
+      "Lion",
+      "Horse",
+      "Greyhound"
+    ],
+    "answer": "Cheetah"
+  },
+  {
+    "id": 4,
+    "question": "Which animal is known for changing its color to blend with the environment?",
+    "options": [
+      "Chameleon",
+      "Octopus",
+      "Cuttlefish",
+      "Squid"
+    ],
+    "answer": "Chameleon"
+  },
+  {
+    "id": 5,
+    "question": "What type of animal is a Komodo dragon?",
+    "options": [
+      "Lizard",
+      "Snake",
+      "Frog",
+      "Turtle"
+    ],
+    "answer": "Lizard"
+  },
+  {
+    "id": 6,
+    "question": "Which bird is famous for its impressive mimicry skills?",
+    "options": [
+      "Parrot",
+      "Crow",
+      "Sparrow",
+      "Eagle"
+    ],
+    "answer": "Parrot"
+  },
+  {
+    "id": 7,
+    "question": "What is a group of lions called?",
+    "options": [
+      "Pride",
+      "Pack",
+      "Herd",
+      "Flock"
+    ],
+    "answer": "Pride"
+  },
+  {
+    "id": 8,
+    "question": "Which animal is the largest mammal in the ocean?",
+    "options": [
+      "Blue Whale",
+      "Great White Shark",
+      "Orca",
+      "Dolphin"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 9,
+    "question": "How many legs does a spider have?",
+    "options": [
+      "8",
+      "6",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 10,
+    "question": "What is the process by which plants make their food?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Germination"
+    ],
+    "answer": "Photosynthesis"
+  }
+]

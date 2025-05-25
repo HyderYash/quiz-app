@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which is the largest national park in the United States?",
+    "options": [
+      "Wrangell–St. Elias",
+      "Yellowstone",
+      "Yosemite",
+      "Grand Canyon"
+    ],
+    "answer": "Wrangell–St. Elias"
+  },
+  {
+    "id": 2,
+    "question": "In which country is Banff National Park located?",
+    "options": [
+      "Canada",
+      "United States",
+      "Australia",
+      "South Africa"
+    ],
+    "answer": "Canada"
+  },
+  {
+    "id": 3,
+    "question": "Which national park is famous for its geysers and hot springs?",
+    "options": [
+      "Yellowstone",
+      "Serengeti",
+      "Kruger",
+      "Yosemite"
+    ],
+    "answer": "Yellowstone"
+  },
+  {
+    "id": 4,
+    "question": "Which national park is known for the giant sequoia trees?",
+    "options": [
+      "Sequoia National Park",
+      "Yellowstone",
+      "Grand Canyon",
+      "Everglades"
+    ],
+    "answer": "Sequoia National Park"
+  },
+  {
+    "id": 5,
+    "question": "Where is the Serengeti National Park located?",
+    "options": [
+      "Tanzania",
+      "Kenya",
+      "South Africa",
+      "Botswana"
+    ],
+    "answer": "Tanzania"
+  },
+  {
+    "id": 6,
+    "question": "Which national park is home to the famous Half Dome rock formation?",
+    "options": [
+      "Yosemite National Park",
+      "Zion National Park",
+      "Grand Teton",
+      "Rocky Mountain"
+    ],
+    "answer": "Yosemite National Park"
+  },
+  {
+    "id": 7,
+    "question": "Which national park is famous for its large population of polar bears?",
+    "options": [
+      "Wapusk National Park",
+      "Yellowstone",
+      "Banff",
+      "Denali"
+    ],
+    "answer": "Wapusk National Park"
+  },
+  {
+    "id": 8,
+    "question": "Which national park is located in the Australian Outback?",
+    "options": [
+      "Uluru-Kata Tjuta National Park",
+      "Kruger National Park",
+      "Banff National Park",
+      "Fiordland National Park"
+    ],
+    "answer": "Uluru-Kata Tjuta National Park"
+  },
+  {
+    "id": 9,
+    "question": "Which national park is known for its diverse coral reefs?",
+    "options": [
+      "Great Barrier Reef Marine Park",
+      "Everglades",
+      "Banff",
+      "Yellowstone"
+    ],
+    "answer": "Great Barrier Reef Marine Park"
+  },
+  {
+    "id": 10,
+    "question": "Which national park features the Grand Canyon?",
+    "options": [
+      "Grand Canyon National Park",
+      "Zion National Park",
+      "Bryce Canyon",
+      "Arches National Park"
+    ],
+    "answer": "Grand Canyon National Park"
+  }
+]

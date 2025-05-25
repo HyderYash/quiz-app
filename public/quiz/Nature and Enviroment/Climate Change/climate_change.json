@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary greenhouse gas responsible for global warming?",
+    "options": [
+      "Carbon dioxide (CO2)",
+      "Oxygen (O2)",
+      "Nitrogen (N2)",
+      "Helium (He)"
+    ],
+    "answer": "Carbon dioxide (CO2)"
+  },
+  {
+    "id": 2,
+    "question": "Which human activity contributes most to climate change?",
+    "options": [
+      "Burning fossil fuels",
+      "Planting trees",
+      "Recycling waste",
+      "Using solar energy"
+    ],
+    "answer": "Burning fossil fuels"
+  },
+  {
+    "id": 3,
+    "question": "What international agreement aims to limit global warming?",
+    "options": [
+      "Paris Agreement",
+      "Kyoto Protocol",
+      "Montreal Protocol",
+      "Geneva Convention"
+    ],
+    "answer": "Paris Agreement"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is a consequence of climate change?",
+    "options": [
+      "Rising sea levels",
+      "Decreased solar activity",
+      "Increased volcanic eruptions",
+      "More earthquakes"
+    ],
+    "answer": "Rising sea levels"
+  },
+  {
+    "id": 5,
+    "question": "What renewable energy source helps reduce climate change effects?",
+    "options": [
+      "Solar energy",
+      "Coal energy",
+      "Natural gas",
+      "Oil"
+    ],
+    "answer": "Solar energy"
+  },
+  {
+    "id": 6,
+    "question": "What effect does deforestation have on climate change?",
+    "options": [
+      "Increases carbon dioxide",
+      "Decreases carbon dioxide",
+      "No effect",
+      "Reduces global warming"
+    ],
+    "answer": "Increases carbon dioxide"
+  },
+  {
+    "id": 7,
+    "question": "What term describes the long-term increase in Earth's average temperature?",
+    "options": [
+      "Global warming",
+      "Ozone depletion",
+      "Acid rain",
+      "El Niño"
+    ],
+    "answer": "Global warming"
+  },
+  {
+    "id": 8,
+    "question": "Which sector is the largest emitter of greenhouse gases?",
+    "options": [
+      "Energy production",
+      "Agriculture",
+      "Transportation",
+      "Forestry"
+    ],
+    "answer": "Energy production"
+  },
+  {
+    "id": 9,
+    "question": "What gas is released by livestock that contributes to climate change?",
+    "options": [
+      "Methane (CH4)",
+      "Carbon dioxide (CO2)",
+      "Nitrous oxide (N2O)",
+      "Oxygen (O2)"
+    ],
+    "answer": "Methane (CH4)"
+  },
+  {
+    "id": 10,
+    "question": "Which action can individuals take to help combat climate change?",
+    "options": [
+      "Reducing energy use",
+      "Increasing plastic use",
+      "Driving more",
+      "Cutting down trees"
+    ],
+    "answer": "Reducing energy use"
+  }
+]

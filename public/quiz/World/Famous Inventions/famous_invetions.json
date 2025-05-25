@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Who invented the telephone?",
+    "options": [
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "id": 2,
+    "question": "What did Thomas Edison invent?",
+    "options": [
+      "Light bulb",
+      "Telephone",
+      "Airplane",
+      "Printing press"
+    ],
+    "answer": "Light bulb"
+  },
+  {
+    "id": 3,
+    "question": "Who invented the airplane?",
+    "options": [
+      "Wright brothers",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "James Watt"
+    ],
+    "answer": "Wright brothers"
+  },
+  {
+    "id": 4,
+    "question": "What is Guglielmo Marconi famous for inventing?",
+    "options": [
+      "Radio",
+      "Television",
+      "Computer",
+      "Internet"
+    ],
+    "answer": "Radio"
+  },
+  {
+    "id": 5,
+    "question": "Who invented the printing press?",
+    "options": [
+      "Johannes Gutenberg",
+      "Benjamin Franklin",
+      "Isaac Newton",
+      "Galileo Galilei"
+    ],
+    "answer": "Johannes Gutenberg"
+  },
+  {
+    "id": 6,
+    "question": "What did Nikola Tesla contribute to?",
+    "options": [
+      "Alternating current electricity",
+      "Telephone",
+      "Light bulb",
+      "Steam engine"
+    ],
+    "answer": "Alternating current electricity"
+  },
+  {
+    "id": 7,
+    "question": "Who is credited with inventing the computer?",
+    "options": [
+      "Charles Babbage",
+      "Alan Turing",
+      "Bill Gates",
+      "Steve Jobs"
+    ],
+    "answer": "Charles Babbage"
+  },
+  {
+    "id": 8,
+    "question": "Who invented the steam engine?",
+    "options": [
+      "James Watt",
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Wright brothers"
+    ],
+    "answer": "James Watt"
+  },
+  {
+    "id": 9,
+    "question": "Who invented the light bulb filament used in the first commercially practical bulb?",
+    "options": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Wright brothers"
+    ],
+    "answer": "Thomas Edison"
+  },
+  {
+    "id": 10,
+    "question": "Who invented the first practical automobile?",
+    "options": [
+      "Karl Benz",
+      "Henry Ford",
+      "Gottlieb Daimler",
+      "Nikola Tesla"
+    ],
+    "answer": "Karl Benz"
+  }
+]

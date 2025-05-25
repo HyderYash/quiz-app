@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Where is the Eiffel Tower located?",
+    "options": [
+      "Paris",
+      "London",
+      "Rome",
+      "Berlin"
+    ],
+    "answer": "Paris"
+  },
+  {
+    "id": 2,
+    "question": "Which landmark is known as the 'Statue of Liberty'?",
+    "options": [
+      "New York",
+      "Washington D.C.",
+      "Boston",
+      "Chicago"
+    ],
+    "answer": "New York"
+  },
+  {
+    "id": 3,
+    "question": "The Great Wall of China was primarily built to protect against which group?",
+    "options": [
+      "Mongols",
+      "Romans",
+      "Persians",
+      "Vikings"
+    ],
+    "answer": "Mongols"
+  },
+  {
+    "id": 4,
+    "question": "Where is the Taj Mahal located?",
+    "options": [
+      "Agra",
+      "Delhi",
+      "Mumbai",
+      "Jaipur"
+    ],
+    "answer": "Agra"
+  },
+  {
+    "id": 5,
+    "question": "Which landmark is famous for its leaning structure?",
+    "options": [
+      "Leaning Tower of Pisa",
+      "Eiffel Tower",
+      "Big Ben",
+      "Sydney Opera House"
+    ],
+    "answer": "Leaning Tower of Pisa"
+  },
+  {
+    "id": 6,
+    "question": "Where is Machu Picchu located?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Mexico",
+      "Brazil"
+    ],
+    "answer": "Peru"
+  },
+  {
+    "id": 7,
+    "question": "Which landmark is an ancient amphitheater in Rome?",
+    "options": [
+      "Colosseum",
+      "Parthenon",
+      "Acropolis",
+      "Pantheon"
+    ],
+    "answer": "Colosseum"
+  },
+  {
+    "id": 8,
+    "question": "What is the name of the famous clock tower in London?",
+    "options": [
+      "Big Ben",
+      "Tower of London",
+      "London Eye",
+      "Westminster Abbey"
+    ],
+    "answer": "Big Ben"
+  },
+  {
+    "id": 9,
+    "question": "Where is the Sydney Opera House located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Canada",
+      "South Africa"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "id": 10,
+    "question": "Which landmark is famous for its massive stone heads on Easter Island?",
+    "options": [
+      "Moai Statues",
+      "Christ the Redeemer",
+      "Stonehenge",
+      "Angkor Wat"
+    ],
+    "answer": "Moai Statues"
+  }
+]

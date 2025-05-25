@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Where is the Eiffel Tower located?",
+    "options": [
+      "Paris",
+      "London",
+      "New York",
+      "Rome"
+    ],
+    "answer": "Paris"
+  },
+  {
+    "id": 2,
+    "question": "Which landmark is known as the Statue of Liberty?",
+    "options": [
+      "New York",
+      "Washington D.C.",
+      "Boston",
+      "Chicago"
+    ],
+    "answer": "New York"
+  },
+  {
+    "id": 3,
+    "question": "Where is the Great Wall of China?",
+    "options": [
+      "China",
+      "Japan",
+      "Korea",
+      "Vietnam"
+    ],
+    "answer": "China"
+  },
+  {
+    "id": 4,
+    "question": "Where is the Taj Mahal located?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "answer": "India"
+  },
+  {
+    "id": 5,
+    "question": "Which landmark is famous for its leaning tower?",
+    "options": [
+      "Leaning Tower of Pisa",
+      "Big Ben",
+      "Eiffel Tower",
+      "Colosseum"
+    ],
+    "answer": "Leaning Tower of Pisa"
+  },
+  {
+    "id": 6,
+    "question": "Where is Machu Picchu located?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Brazil",
+      "Argentina"
+    ],
+    "answer": "Peru"
+  },
+  {
+    "id": 7,
+    "question": "What is the Colosseum?",
+    "options": [
+      "Ancient Roman amphitheater",
+      "A modern stadium",
+      "A museum",
+      "A palace"
+    ],
+    "answer": "Ancient Roman amphitheater"
+  },
+  {
+    "id": 8,
+    "question": "Where is the Sydney Opera House?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Canada",
+      "United Kingdom"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "id": 9,
+    "question": "Which famous clock tower is located in London?",
+    "options": [
+      "Big Ben",
+      "Eiffel Tower",
+      "Leaning Tower of Pisa",
+      "Statue of Liberty"
+    ],
+    "answer": "Big Ben"
+  },
+  {
+    "id": 10,
+    "question": "What are the giant stone heads on Easter Island called?",
+    "options": [
+      "Moai",
+      "Totem poles",
+      "Sphinx",
+      "Obelisks"
+    ],
+    "answer": "Moai"
+  }
+]

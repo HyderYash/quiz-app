@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary purpose of a stock market?",
+    "options": [
+      "To lend money",
+      "To buy and sell shares of companies",
+      "To issue currency",
+      "To provide insurance"
+    ],
+    "answer": "To buy and sell shares of companies"
+  },
+  {
+    "id": 2,
+    "question": "What does ROI stand for in finance?",
+    "options": [
+      "Return on Investment",
+      "Rate of Interest",
+      "Revenue on Income",
+      "Risk of Inflation"
+    ],
+    "answer": "Return on Investment"
+  },
+  {
+    "id": 3,
+    "question": "Which financial instrument represents ownership in a company?",
+    "options": [
+      "Bond",
+      "Stock",
+      "Loan",
+      "Option"
+    ],
+    "answer": "Stock"
+  },
+  {
+    "id": 4,
+    "question": "What is diversification in investing?",
+    "options": [
+      "Investing in a single asset",
+      "Spreading investments across various assets",
+      "Borrowing money",
+      "Selling assets"
+    ],
+    "answer": "Spreading investments across various assets"
+  },
+  {
+    "id": 5,
+    "question": "What is the term for money earned before taxes?",
+    "options": [
+      "Net income",
+      "Gross income",
+      "Disposable income",
+      "Capital gains"
+    ],
+    "answer": "Gross income"
+  },
+  {
+    "id": 6,
+    "question": "Which organization regulates the stock market in the USA?",
+    "options": [
+      "FBI",
+      "SEC",
+      "IRS",
+      "FDIC"
+    ],
+    "answer": "SEC"
+  },
+  {
+    "id": 7,
+    "question": "What is a bond?",
+    "options": [
+      "A loan made to a company or government",
+      "A share of stock",
+      "A type of savings account",
+      "An insurance policy"
+    ],
+    "answer": "A loan made to a company or government"
+  },
+  {
+    "id": 8,
+    "question": "What does liquidity mean in finance?",
+    "options": [
+      "Ease of converting assets to cash",
+      "Profitability",
+      "Debt level",
+      "Market value"
+    ],
+    "answer": "Ease of converting assets to cash"
+  },
+  {
+    "id": 9,
+    "question": "What is compound interest?",
+    "options": [
+      "Interest on the original principal only",
+      "Interest on both principal and accumulated interest",
+      "Interest paid monthly",
+      "Penalty for late payment"
+    ],
+    "answer": "Interest on both principal and accumulated interest"
+  },
+  {
+    "id": 10,
+    "question": "Which financial statement shows a company’s assets, liabilities, and equity?",
+    "options": [
+      "Income statement",
+      "Balance sheet",
+      "Cash flow statement",
+      "Statement of retained earnings"
+    ],
+    "answer": "Balance sheet"
+  }
+]

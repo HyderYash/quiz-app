@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which film won the Oscar for Best Picture in 2023?",
+    "options": [
+      "The Fabelmans",
+      "Top Gun: Maverick",
+      "Everything Everywhere All at Once",
+      "T\u00c1R"
+    ],
+    "answer": "Everything Everywhere All at Once"
+  },
+  {
+    "id": 2,
+    "question": "Who won the Oscar for Best Actor in 2023?",
+    "options": [
+      "Austin Butler",
+      "Brendan Fraser",
+      "Colin Farrell",
+      "Paul Mescal"
+    ],
+    "answer": "Brendan Fraser"
+  },
+  {
+    "id": 3,
+    "question": "Who was the first woman to win the Best Director Oscar?",
+    "options": [
+      "Sofia Coppola",
+      "Greta Gerwig",
+      "Kathryn Bigelow",
+      "Jane Campion"
+    ],
+    "answer": "Kathryn Bigelow"
+  },
+  {
+    "id": 4,
+    "question": "Which movie won the most Oscars in a single ceremony?",
+    "options": [
+      "Titanic",
+      "The Lord of the Rings: The Return of the King",
+      "Ben-Hur",
+      "All About Eve"
+    ],
+    "answer": "The Lord of the Rings: The Return of the King"
+  },
+  {
+    "id": 5,
+    "question": "Which actor has won the most Academy Awards for acting?",
+    "options": [
+      "Jack Nicholson",
+      "Daniel Day-Lewis",
+      "Katharine Hepburn",
+      "Meryl Streep"
+    ],
+    "answer": "Katharine Hepburn"
+  },
+  {
+    "id": 6,
+    "question": "Who won Best Supporting Actor for 'No Country for Old Men'?",
+    "options": [
+      "Tommy Lee Jones",
+      "Josh Brolin",
+      "Woody Harrelson",
+      "Javier Bardem"
+    ],
+    "answer": "Javier Bardem"
+  },
+  {
+    "id": 7,
+    "question": "Which animated film was the first to be nominated for Best Picture?",
+    "options": [
+      "Beauty and the Beast",
+      "Up",
+      "Toy Story 3",
+      "Shrek"
+    ],
+    "answer": "Beauty and the Beast"
+  },
+  {
+    "id": 8,
+    "question": "Who hosted the Oscars in 2022?",
+    "options": [
+      "Jimmy Kimmel",
+      "Ellen DeGeneres",
+      "Regina Hall, Amy Schumer, and Wanda Sykes",
+      "Chris Rock"
+    ],
+    "answer": "Regina Hall, Amy Schumer, and Wanda Sykes"
+  },
+  {
+    "id": 9,
+    "question": "Which film did Leonardo DiCaprio win his first Oscar for?",
+    "options": [
+      "Titanic",
+      "The Wolf of Wall Street",
+      "The Revenant",
+      "Inception"
+    ],
+    "answer": "The Revenant"
+  },
+  {
+    "id": 10,
+    "question": "What movie won Best Picture in the first Academy Awards?",
+    "options": [
+      "Wings",
+      "Sunrise",
+      "The Broadway Melody",
+      "The Jazz Singer"
+    ],
+    "answer": "Wings"
+  }
+]

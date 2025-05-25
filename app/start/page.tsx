@@ -1,42 +1,83 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, Play, Coins } from "lucide-react";
 import * as LucideIcons from "lucide-react";
-import { categories } from "@/lib/data";
+// import { categories } from "@/lib/data"; // REMOVE STATIC IMPORT
 import { useCoins } from "../providers";
 import { cn } from "@/lib/utils";
+
+// Helper to transform API data to UI structure
+function transformApiData(apiData: any) {
+  if (!apiData || typeof apiData !== 'object') return [];
+  return Object.entries(apiData).map(([categoryName, subcats]: any, idx) => ({
+    id: categoryName.toLowerCase().replace(/\s+/g, '-'),
+    name: categoryName,
+    subcategories: Object.entries(subcats || {}).map(([subcatName, questionsArr]: any, subIdx) => {
+      // Each subcategory is an array of questions
+      const questions = Array.isArray(questionsArr)
+        ? questionsArr.filter(q => q && q.question && Array.isArray(q.options) && q.options.length > 0)
+        : [];
+      return {
+        id: subcatName.toLowerCase().replace(/\s+/g, '-'),
+        name: subcatName,
+        quizzes: questions.length > 0 ? [{
+          id: `${categoryName}-${subcatName}`,
+          title: `${subcatName} Quiz`,
+          description: `Quiz for ${subcatName}`,
+          coinCost: 100,
+          coinReward: 2000,
+          questions: questions.map((qq: any, i: number) => ({
+            id: qq.id || `${categoryName}-${subcatName}-q${i}`,
+            text: qq.question || '',
+            options: qq.options || [],
+            correctAnswer: qq.options ? qq.options.indexOf(qq.answer) : 0,
+          }))
+        }] : []
+      };
+    })
+  }));
+}
 
 export default function StartPage() {
   const [selectedCategory, setSelectedCategory] = useState("ALL");
   const { coins, hasEnoughCoins } = useCoins();
+  const [categories, setCategories] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [categoryTabs, setCategoryTabs] = useState<string[]>(["ALL"]);
 
-  const categoryTabs = ["ALL", "NATURE AND ENVIRONMENT", "BUSINESS", "SPORTS", "HISTORY", "WORLD"];
+  useEffect(() => {
+    async function fetchData() {
+      setLoading(true);
+      try {
+        const res = await fetch("/api/quiz-data");
+        const json = await res.json();
+        if (json.success && json.data) {
+          const cats = transformApiData(json.data);
+          setCategories(cats);
+          setCategoryTabs(["ALL", ...cats.map((cat: any) => cat.name.toUpperCase())]);
+        } else {
+          setCategories([]);
+          setCategoryTabs(["ALL"]);
+        }
+      } catch (e) {
+        setCategories([]);
+        setCategoryTabs(["ALL"]);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchData();
+  }, []);
 
   const filteredCategories = selectedCategory === "ALL"
     ? categories
-    : categories.filter(cat => {
-      const categoryName = cat.name.toUpperCase();
-      switch (selectedCategory) {
-        case "NATURE AND ENVIRONMENT":
-          return categoryName.includes("NATURE");
-        case "BUSINESS":
-          return categoryName.includes("BUSINESS");
-        case "SPORTS":
-          return categoryName.includes("SPORTS");
-        case "HISTORY":
-          return categoryName.includes("HISTORY");
-        case "WORLD":
-          return categoryName.includes("WORLD");
-        default:
-          return true;
-      }
-    });
+    : categories.filter(cat => cat.name.toUpperCase() === selectedCategory.toUpperCase());
 
   const getCategoryIcon = (categoryId: string) => {
     switch (categoryId) {
-      case 'nature':
+      case 'nature-and-enviroment':
         return () => (
           <div className="relative">
             <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
@@ -50,7 +91,7 @@ export default function StartPage() {
             </div>
           </div>
         );
-      case 'business':
+      case 'business-and-economics':
         return () => (
           <div className="flex gap-1 items-end">
             <div className="w-2 h-6 bg-orange-500 rounded-sm"></div>
@@ -65,45 +106,47 @@ export default function StartPage() {
             <div className="w-4 h-4 bg-orange-600 rounded-full relative">
               <div className="absolute inset-0.5 border border-black rounded-full"></div>
             </div>
-            <div className="w-3 h-3 bg-amber-700 rounded-full relative mt-1">
-              <div className="absolute inset-0.5 border border-white rounded-full"></div>
-            </div>
+            <LucideIcons.Dumbbell className="w-4 h-4 text-orange-700" />
           </div>
         );
+      case 'technology':
+        return () => <LucideIcons.Cpu className="w-6 h-6 text-blue-600" />;
+      case 'entertainment':
+        return () => <LucideIcons.Film className="w-6 h-6 text-pink-500" />;
       case 'history':
-        return () => (
-          <div className="w-8 h-6 bg-yellow-200 rounded-sm relative">
-            <div className="absolute top-0 left-0 w-full h-1 bg-yellow-300 rounded-t-sm"></div>
-            <div className="absolute inset-x-1 top-2 space-y-0.5">
-              <div className="w-6 h-0.5 bg-amber-800"></div>
-              <div className="w-4 h-0.5 bg-amber-800"></div>
-              <div className="w-5 h-0.5 bg-amber-800"></div>
-            </div>
-          </div>
-        );
+        return () => <LucideIcons.BookOpen className="w-6 h-6 text-yellow-700" />;
+      case 'math-and-logic':
+        return () => <LucideIcons.FunctionSquare className="w-6 h-6 text-purple-600" />;
+      case 'english':
+        return () => <LucideIcons.Type className="w-6 h-6 text-indigo-600" />;
+      case 'travel':
+        return () => <LucideIcons.Plane className="w-6 h-6 text-sky-500" />;
       case 'world':
-        return () => (
-          <div className="w-8 h-8 bg-blue-400 rounded-full relative">
-            <div className="absolute top-1 left-1 w-2 h-2 bg-green-500 rounded-full"></div>
-            <div className="absolute bottom-1 right-1 w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-            <div className="absolute top-2 right-1 w-1 h-1 bg-green-500 rounded-full"></div>
-          </div>
-        );
+        return () => <LucideIcons.Globe className="w-6 h-6 text-green-700" />;
       default:
-        return () => <LucideIcons.HelpCircle className="h-6 w-6 text-white" />;
+        return () => <LucideIcons.HelpCircle className="w-6 h-6 text-gray-400" />;
     }
   };
 
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-900">
+        <span className="text-white text-lg">Loading...</span>
+      </div>
+    );
+  }
+
   return (
-    <div className="min-h-screen bg-slate-900">
-      {/* Header */}
-      <div className="flex items-center justify-between px-4 py-3 bg-slate-800">
+    <div className="w-full h-screen flex flex-col bg-gradient-to-b from-slate-900 to-slate-800">
+      {/* Sticky Mobile Header */}
+      <div className="sticky top-0 z-20 bg-slate-800 flex items-center justify-between w-full px-4 py-3 shadow-md">
         <div className="flex flex-col gap-1">
           <div className="w-5 h-0.5 bg-white rounded"></div>
           <div className="w-5 h-0.5 bg-white rounded"></div>
           <div className="w-5 h-0.5 bg-white rounded"></div>
         </div>
-        <h1 className="text-2xl font-bold text-yellow-400">Quizwinz</h1>
+        <h1 className="text-xl font-extrabold text-yellow-400 tracking-wide">Quizwinz</h1>
         <div className="flex items-center gap-1 bg-yellow-400 rounded-full px-3 py-1.5">
           <div className="w-5 h-5 bg-yellow-500 rounded-full relative flex items-center justify-center">
             <div className="w-3 h-3 bg-yellow-600 rounded-full relative">
@@ -115,19 +158,20 @@ export default function StartPage() {
         </div>
       </div>
 
-      {/* Category Tabs */}
-      <div className="p-4">
-        <div className="flex gap-2 overflow-x-auto pb-2">
+      {/* Category Tabs - Mobile Scrollable */}
+      <div className="w-full px-0 pt-3 pb-2 bg-slate-900 sticky top-[56px] z-10">
+        <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1 w-full">
           {categoryTabs.map((tab) => (
             <button
               key={tab}
               onClick={() => setSelectedCategory(tab)}
               className={cn(
-                "px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors",
+                "px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap transition-colors flex-shrink-0 border border-transparent",
                 selectedCategory === tab
-                  ? "bg-yellow-400 text-black"
+                  ? "bg-yellow-400 text-black shadow-md border-yellow-300"
                   : "bg-slate-700 text-white hover:bg-slate-600"
               )}
+              style={{ minWidth: 90 }}
             >
               {tab}
             </button>
@@ -135,34 +179,33 @@ export default function StartPage() {
         </div>
       </div>
 
-      {/* Quiz Cards */}
-      <div className="px-4 space-y-3">
-        {filteredCategories.map((category) =>
-          category.subcategories.map((subcategory) =>
-            subcategory.quizzes.map((quiz) => {
+      {/* Quiz Cards - Mobile Single Column */}
+      <div className="flex-1 flex flex-col gap-3 w-full px-0 pb-4 pt-2">
+        {filteredCategories.map((category: any) =>
+          category.subcategories.map((subcategory: any) =>
+            subcategory.quizzes.map((quiz: any) => {
               const IconComponent = getCategoryIcon(category.id);
               const canPlay = hasEnoughCoins(quiz.coinCost);
-
               return (
-                <div key={quiz.id} className="bg-slate-800 rounded-lg p-4 flex items-center gap-4">
+                <div key={quiz.id} className="bg-slate-800 rounded-2xl shadow-lg p-4 flex items-center gap-4 border border-slate-700 w-full mx-0">
                   {/* Icon */}
-                  <div className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-14 h-14 bg-slate-700 rounded-xl flex items-center justify-center flex-shrink-0">
                     <IconComponent />
                   </div>
 
                   {/* Content */}
-                  <div className="flex-1">
-                    <div className="text-sm text-gray-400 mb-1">
+                  <div className="flex-1 min-w-0">
+                    <div className="text-xs text-gray-400 mb-1 truncate">
                       {category.name} | {subcategory.name}
                     </div>
-                    <div className="text-white font-semibold mb-2">
+                    <div className="text-white font-bold text-base mb-1 truncate">
                       {quiz.title}
                     </div>
-                    <div className="flex items-center gap-2 text-sm">
+                    <div className="flex items-center gap-2 text-xs">
                       <span className="text-gray-400">Entry Fee</span>
                       <div className="flex items-center gap-1">
                         <Coins className="h-4 w-4 text-yellow-400" />
-                        <span className="text-white">{quiz.coinCost}</span>
+                        <span className="text-white font-semibold">{quiz.coinCost}</span>
                       </div>
                     </div>
                   </div>
@@ -170,12 +213,26 @@ export default function StartPage() {
                   {/* Play Button */}
                   <Link
                     href={canPlay ? `/playquiz?category=${category.id}&subcategory=${subcategory.id}&quiz=${quiz.id}` : "#"}
-                    onClick={(e) => !canPlay && e.preventDefault()}
+                    onClick={e => {
+                      if (!canPlay) {
+                        e.preventDefault();
+                        return;
+                      }
+                      // Store full quiz data in localStorage
+                      if (typeof window !== 'undefined') {
+                        localStorage.setItem('current_quiz', JSON.stringify({
+                          categoryId: category.id,
+                          subcategoryId: subcategory.id,
+                          quizId: quiz.id,
+                          quiz: quiz // This now includes all questions
+                        }));
+                      }
+                    }}
                     className={cn(
-                      "w-12 h-12 rounded-full flex items-center justify-center transition-colors",
+                      "w-12 h-12 rounded-full flex items-center justify-center transition-colors border-2 border-transparent",
                       canPlay
-                        ? "bg-yellow-400 hover:bg-yellow-500"
-                        : "bg-gray-600 cursor-not-allowed"
+                        ? "bg-yellow-400 hover:bg-yellow-500 text-black border-yellow-300 shadow-md"
+                        : "bg-gray-600 cursor-not-allowed text-gray-400"
                     )}
                   >
                     <Play className={cn(

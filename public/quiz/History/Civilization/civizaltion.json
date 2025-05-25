@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which civilization built the pyramids?",
+    "options": [
+      "Roman",
+      "Egyptian",
+      "Mayan",
+      "Greek"
+    ],
+    "answer": "Egyptian"
+  },
+  {
+    "id": 2,
+    "question": "The Indus Valley Civilization was located in which modern-day country?",
+    "options": [
+      "India and Pakistan",
+      "China",
+      "Egypt",
+      "Mesopotamia"
+    ],
+    "answer": "India and Pakistan"
+  },
+  {
+    "id": 3,
+    "question": "Which ancient civilization is known for creating cuneiform writing?",
+    "options": [
+      "Sumerian",
+      "Roman",
+      "Greek",
+      "Aztec"
+    ],
+    "answer": "Sumerian"
+  },
+  {
+    "id": 4,
+    "question": "The city of Machu Picchu was built by which civilization?",
+    "options": [
+      "Aztec",
+      "Mayan",
+      "Inca",
+      "Olmec"
+    ],
+    "answer": "Inca"
+  },
+  {
+    "id": 5,
+    "question": "Which civilization is famous for the Code of Hammurabi?",
+    "options": [
+      "Babylonian",
+      "Egyptian",
+      "Greek",
+      "Roman"
+    ],
+    "answer": "Babylonian"
+  },
+  {
+    "id": 6,
+    "question": "The ancient city of Troy is associated with which civilization?",
+    "options": [
+      "Greek",
+      "Hittite",
+      "Minoan",
+      "Trojan"
+    ],
+    "answer": "Trojan"
+  },
+  {
+    "id": 7,
+    "question": "The Olmec civilization is known as the 'Mother Civilization' of which region?",
+    "options": [
+      "South America",
+      "Mesoamerica",
+      "Africa",
+      "Southeast Asia"
+    ],
+    "answer": "Mesoamerica"
+  },
+  {
+    "id": 8,
+    "question": "Which river was central to the development of Ancient Egyptian civilization?",
+    "options": [
+      "Tigris",
+      "Euphrates",
+      "Nile",
+      "Amazon"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 9,
+    "question": "The term 'Mesopotamia' means:",
+    "options": [
+      "Land between rivers",
+      "Mountain of gods",
+      "City of kings",
+      "Land of deserts"
+    ],
+    "answer": "Land between rivers"
+  },
+  {
+    "id": 10,
+    "question": "Which civilization developed democracy?",
+    "options": [
+      "Roman",
+      "Greek",
+      "Egyptian",
+      "Persian"
+    ],
+    "answer": "Greek"
+  }
+]
