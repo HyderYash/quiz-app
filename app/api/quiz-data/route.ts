@@ -7,7 +7,7 @@ const QUIZ_DIR = path.join(process.cwd(), 'public', 'quiz');
 export async function GET() {
     try {
         const categories = await fs.readdir(QUIZ_DIR);
-        const data = {};
+        const data: Record<string, any> = {};
 
         for (const category of categories) {
             const categoryPath = path.join(QUIZ_DIR, category);
