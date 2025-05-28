@@ -57,3 +57,34 @@
 .fun-fact {
   @apply mt-8 p-6 bg-card rounded-xl text-center;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Custom scrollbar for all scrollable areas */
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #fbbf24 #232946; /* thumb color, track color */
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #232946;
+  border-radius: 8px;
+}
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #fbbf24;
+  border-radius: 8px;
+  border: 2px solid #232946;
+}
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #fde68a;
+}

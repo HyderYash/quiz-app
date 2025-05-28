@@ -7,6 +7,7 @@ import * as LucideIcons from "lucide-react";
 // import { categories } from "@/lib/data"; // REMOVE STATIC IMPORT
 import { useCoins } from "../providers";
 import { cn } from "@/lib/utils";
+import NavigationMenu from '../components/NavigationMenu';
 
 // Helper to transform API data to UI structure
 function transformApiData(apiData: any) {
@@ -46,6 +47,7 @@ export default function StartPage() {
   const [categories, setCategories] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [categoryTabs, setCategoryTabs] = useState<string[]>(["ALL"]);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
@@ -131,21 +133,24 @@ export default function StartPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-900">
+      <div className="h-full flex items-center justify-center bg-slate-900">
         <span className="text-white text-lg">Loading...</span>
       </div>
     );
   }
 
   return (
-    <div className="w-full h-screen flex flex-col bg-gradient-to-b from-slate-900 to-slate-800">
+    <div className="h-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800">
       {/* Sticky Mobile Header */}
       <div className="sticky top-0 z-20 bg-slate-800 flex items-center justify-between w-full px-4 py-3 shadow-md">
-        <div className="flex flex-col gap-1">
+        <button
+          onClick={() => setIsMenuOpen(true)}
+          className="flex flex-col gap-1"
+        >
           <div className="w-5 h-0.5 bg-white rounded"></div>
           <div className="w-5 h-0.5 bg-white rounded"></div>
           <div className="w-5 h-0.5 bg-white rounded"></div>
-        </div>
+        </button>
         <h1 className="text-xl font-extrabold text-yellow-400 tracking-wide">Quizwinz</h1>
         <div className="flex items-center gap-1 bg-yellow-400 rounded-full px-3 py-1.5">
           <div className="w-5 h-5 bg-yellow-500 rounded-full relative flex items-center justify-center">
@@ -158,9 +163,15 @@ export default function StartPage() {
         </div>
       </div>
 
+      {/* Navigation Menu */}
+      <NavigationMenu
+        isOpen={isMenuOpen}
+        onClose={() => setIsMenuOpen(false)}
+      />
+
       {/* Category Tabs - Mobile Scrollable */}
       <div className="w-full px-0 pt-3 pb-2 bg-slate-900 sticky top-[56px] z-10">
-        <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1 w-full">
+        <div className="flex gap-2 overflow-x-auto scrollbar-custom pb-1 w-full px-4">
           {categoryTabs.map((tab) => (
             <button
               key={tab}
@@ -180,14 +191,14 @@ export default function StartPage() {
       </div>
 
       {/* Quiz Cards - Mobile Single Column */}
-      <div className="flex-1 flex flex-col gap-3 w-full px-0 pb-4 pt-2">
+      <div className="flex-1 flex flex-col gap-3 w-full px-4 pb-4 pt-2 overflow-y-auto scrollbar-custom">
         {filteredCategories.map((category: any) =>
           category.subcategories.map((subcategory: any) =>
             subcategory.quizzes.map((quiz: any) => {
               const IconComponent = getCategoryIcon(category.id);
               const canPlay = hasEnoughCoins(quiz.coinCost);
               return (
-                <div key={quiz.id} className="bg-slate-800 rounded-2xl shadow-lg p-4 flex items-center gap-4 border border-slate-700 w-full mx-0">
+                <div key={quiz.id} className="bg-slate-800 rounded-2xl shadow-lg p-4 flex items-center gap-4 border border-slate-700">
                   {/* Icon */}
                   <div className="w-14 h-14 bg-slate-700 rounded-xl flex items-center justify-center flex-shrink-0">
                     <IconComponent />

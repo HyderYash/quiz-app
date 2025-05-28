@@ -197,83 +197,73 @@ export default function PlayQuizPage() {
   };
 
   return (
-    <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
-      <div className="bg-slate-800 rounded-2xl p-6 max-w-lg w-full relative">
-        {/* Close Button */}
-        <Link
-          href="/start"
-          className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
-        >
-          <X className="h-6 w-6" />
-        </Link>
+    <div className="h-full w-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800 p-4 overflow-y-auto">
+      {/* Header */}
+      <div className="text-center mb-6 mt-2">
+        <h1 className="text-xl font-bold text-yellow-400 mb-2">
+          {quizData.categoryId.charAt(0).toUpperCase() + quizData.categoryId.slice(1)}-{quizData.subcategoryId.charAt(0).toUpperCase() + quizData.subcategoryId.slice(1)}
+        </h1>
+        <p className="text-white text-lg">
+          Play & WinCoin 💰{quiz.coinReward}
+        </p>
+      </div>
 
-        {/* Header */}
-        <div className="text-center mb-6">
-          <h1 className="text-xl font-bold text-yellow-400 mb-2">
-            {quizData.categoryId.charAt(0).toUpperCase() + quizData.categoryId.slice(1)}-{quizData.subcategoryId.charAt(0).toUpperCase() + quizData.subcategoryId.slice(1)}
-          </h1>
-          <p className="text-white text-lg">
-            Play & WinCoin 💰{quiz.coinReward}
-          </p>
+      {/* Timer and Score */}
+      <div className="flex items-center justify-between mb-6">
+        {/* Correct Answers */}
+        <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+          <span className="text-white font-bold text-lg">{correctAnswers}</span>
         </div>
 
-        {/* Timer and Score */}
-        <div className="flex items-center justify-between mb-6">
-          {/* Correct Answers */}
-          <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-lg">{correctAnswers}</span>
-          </div>
-
-          {/* Timer */}
-          <div className="relative">
-            <div className="w-20 h-20 rounded-full border-4 border-yellow-400 flex items-center justify-center bg-slate-700">
-              <span className="text-white font-bold text-lg">{formatTime(timeLeft)}</span>
-            </div>
-          </div>
-
-          {/* Wrong Answers */}
-          <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-lg">{wrongAnswers}</span>
+        {/* Timer */}
+        <div className="relative">
+          <div className="w-20 h-20 rounded-full border-4 border-yellow-400 flex items-center justify-center bg-slate-700">
+            <span className="text-white font-bold text-lg">{formatTime(timeLeft)}</span>
           </div>
         </div>
 
-        {/* Question Counter */}
-        <div className="text-center mb-6">
-          <div className="bg-slate-700 rounded-lg px-4 py-2 inline-block">
-            <span className="text-white text-sm">Question {currentQuestionIndex + 1}/{quiz.questions.length}</span>
-          </div>
+        {/* Wrong Answers */}
+        <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+          <span className="text-white font-bold text-lg">{wrongAnswers}</span>
         </div>
+      </div>
 
-        {/* Question */}
-        <div className="text-center mb-8">
-          <p className="text-white text-lg leading-relaxed">
-            {currentQuestion.text}
-          </p>
+      {/* Question Counter */}
+      <div className="text-center mb-6">
+        <div className="bg-slate-700 rounded-lg px-4 py-2 inline-block">
+          <span className="text-white text-sm">Question {currentQuestionIndex + 1}/{quiz.questions.length}</span>
         </div>
+      </div>
 
-        {/* Answer Options */}
-        <div className="grid grid-cols-2 gap-3 mb-6">
-          {currentQuestion.options.map((option: string, index: number) => (
-            <button
-              key={index}
-              onClick={() => handleAnswer(index)}
-              disabled={showResult}
-              className={cn(
-                "p-4 rounded-lg text-center font-medium transition-all duration-200",
-                getOptionClassName(index)
-              )}
-            >
-              {option}
-            </button>
-          ))}
-        </div>
+      {/* Question */}
+      <div className="text-center mb-8">
+        <p className="text-white text-lg leading-relaxed">
+          {currentQuestion.text}
+        </p>
+      </div>
 
-        {/* Score Display */}
-        <div className="text-center">
-          <p className="text-yellow-400 font-semibold">
-            Your Score is {correctAnswers}
-          </p>
-        </div>
+      {/* Answer Options */}
+      <div className="grid grid-cols-2 gap-3 mb-6">
+        {currentQuestion.options.map((option: string, index: number) => (
+          <button
+            key={index}
+            onClick={() => handleAnswer(index)}
+            disabled={showResult}
+            className={cn(
+              "p-4 rounded-lg text-center font-medium transition-all duration-200",
+              getOptionClassName(index)
+            )}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
+
+      {/* Always-visible Score Display at the bottom */}
+      <div className="text-center mt-auto sticky bottom-0 bg-slate-900 py-3 z-10">
+        <p className="text-yellow-400 font-semibold text-lg">
+          Your Score: {correctAnswers}
+        </p>
       </div>
     </div>
   );
