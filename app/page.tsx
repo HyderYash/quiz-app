@@ -15,6 +15,18 @@ export default function Home() {
   const questions = quickStartQuiz.questions;
   const currentQuestion = questions[currentQuestionIndex];
 
+  const calculateEarnedCoins = (totalCorrect) => {
+    // Calculate base coins using the original percentage logic
+    const baseCoins = Math.round(
+      totalCorrect / questions.length * quickStartQuiz.coinReward
+    );
+
+    // Always add 100 bonus coins
+    const bonusCoins = 100;
+
+    return baseCoins + bonusCoins;
+  };
+
   const handleAnswer = (isCorrect: boolean) => {
     if (isCorrect) {
       setCorrectAnswers(prev => prev + 1);
@@ -25,9 +37,8 @@ export default function Home() {
         setCurrentQuestionIndex(prev => prev + 1);
       }, 500);
     } else {
-      const earnedCoins = Math.round(
-        (correctAnswers + (isCorrect ? 1 : 0)) / questions.length * quickStartQuiz.coinReward
-      );
+      const finalCorrectAnswers = correctAnswers + (isCorrect ? 1 : 0);
+      const earnedCoins = calculateEarnedCoins(finalCorrectAnswers);
 
       setTimeout(() => {
         addCoins(earnedCoins);
@@ -37,14 +48,14 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center min-h-screen py-8 px-4">
-      <h1 className="text-4xl font-bold mb-2 text-center">Quick Start!</h1>
-      <p className="text-muted-foreground mb-8 text-center">
+    <div className="flex flex-col items-center min-h-screen py-2 px-2">
+      <h1 className="text-4xl font-bold text-center">Quick Start!</h1>
+      <p className="text-muted-foreground mb-2 text-center">
         Answer {questions.length} questions and win up to {quickStartQuiz.coinReward} coins.
       </p>
 
-      <div className="w-full max-w-2xl">
-        <div className="text-center text-sm text-muted-foreground mb-4">
+      <div className="w-full max-w-xl">
+        <div className="text-center text-sm text-muted-foreground mb-2">
           {currentQuestionIndex + 1}/{questions.length} Question
         </div>
 
@@ -52,23 +63,23 @@ export default function Home() {
           question={currentQuestion}
           onAnswer={handleAnswer}
           showResult={true}
-          className="mb-6"
+          className="mb-3"
         />
 
         <div className="fun-fact">
-          <h2 className="text-xl font-semibold mb-4">#Fun Fact</h2>
-          <p className="text-muted-foreground">
+          <h2 className="text-lg font-semibold">#Fun Fact</h2>
+          <p className="text-muted-foreground text-sm">
             Mahendra Singh Dhoni clenches a title of being the most successful captain in the IPL history.
           </p>
         </div>
 
         {/* Promotional Section */}
-        <div className="mt-8 bg-slate-800 rounded-xl p-6">
-          <h2 className="text-white text-xl font-semibold text-center mb-6">
+        <div className="mt-4 bg-slate-800 rounded-xl p-4">
+          <h2 className="text-white text-xl font-semibold text-center mb-3">
             Play Quiz and Win Coins!
           </h2>
 
-          <div className="space-y-3">
+          <div className="space-y-1">
             <div className="flex items-start gap-3">
               <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
               <p className="text-gray-300 text-sm">

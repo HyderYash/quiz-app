@@ -1,6 +1,6 @@
 {
-    "name": "Quizwinz - Quiz App",
-    "short_name": "Quizwinz",
+    "name": "Quizyfun - Quiz App",
+    "short_name": "Quizyfun",
     "description": "Play quizzes and win coins!",
     "start_url": "/",
     "display": "standalone",

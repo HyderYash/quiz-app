@@ -15,10 +15,10 @@ export function QuizCard({ question, onAnswer, showResult = false, className }: 
 
   const handleOptionClick = (optionIndex: number) => {
     if (showingResult) return;
-    
+
     setSelectedOption(optionIndex);
     setShowingResult(true);
-    
+
     setTimeout(() => {
       onAnswer(optionIndex === question.correctAnswer);
       setSelectedOption(null);
@@ -44,9 +44,9 @@ export function QuizCard({ question, onAnswer, showResult = false, className }: 
 
   return (
     <div className={cn("w-full", className)}>
-      <div className="bg-card rounded-2xl p-8 mb-6">
-        <h2 className="text-xl text-center mb-8">{question.text}</h2>
-        
+      <div className="bg-card rounded-lg p-4 mb-4">
+        <h2 className="text-lg text-center mb-4">{question.text}</h2>
+
         <div className="grid grid-cols-2 gap-4">
           {question.options.map((option, index) => (
             <button

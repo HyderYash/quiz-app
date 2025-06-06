@@ -141,9 +141,8 @@ export default function PlayQuizPage() {
   };
 
   const endQuiz = () => {
-    const earnedCoins = Math.round(
-      correctAnswers / quiz.questions.length * quiz.coinReward
-    );
+    const earnedCoins = correctAnswers
+    console.log("earnedCoins", earnedCoins);
     const result = {
       quizId: quiz.id,
       correctAnswers,
@@ -180,7 +179,7 @@ export default function PlayQuizPage() {
       } else {
         endQuiz();
       }
-    }, 2000);
+    }, 1000);
   };
 
   const getOptionClassName = (index: number) => {
@@ -262,7 +261,7 @@ export default function PlayQuizPage() {
       {/* Always-visible Score Display at the bottom */}
       <div className="text-center mt-auto sticky bottom-0 bg-slate-900 py-3 z-10">
         <p className="text-yellow-400 font-semibold text-lg">
-          Your Score: {correctAnswers}
+          Your Score: {correctAnswers * 100}
         </p>
       </div>
     </div>

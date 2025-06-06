@@ -27,6 +27,8 @@
 
 @layer base {
   * {
+    margin: 0;
+    padding: 0;
     @apply border-border;
   }
   body {
@@ -35,11 +37,11 @@
 }
 
 .quiz-option {
-  @apply p-6 text-center rounded-xl bg-secondary hover:bg-blue-600 transition-all duration-200 cursor-pointer font-medium text-lg;
+  @apply p-2 text-center rounded-lg bg-secondary hover:bg-blue-600 transition-all duration-200 cursor-pointer font-medium text-sm;
 }
 
 .quiz-option:hover {
-  @apply transform scale-105;
+  @apply transform scale-100;
 }
 
 .quiz-option.selected {
@@ -55,7 +57,7 @@
 }
 
 .fun-fact {
-  @apply mt-8 p-6 bg-card rounded-xl text-center;
+  @apply mt-4 p-3 bg-card rounded-sm text-center;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
