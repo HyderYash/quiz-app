@@ -15,7 +15,7 @@ export default function Home() {
   const questions = quickStartQuiz.questions;
   const currentQuestion = questions[currentQuestionIndex];
 
-  const calculateEarnedCoins = (totalCorrect) => {
+  const calculateEarnedCoins = (totalCorrect: number) => {
     // Calculate base coins using the original percentage logic
     const baseCoins = Math.round(
       totalCorrect / questions.length * quickStartQuiz.coinReward
