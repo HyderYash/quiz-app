@@ -15,7 +15,7 @@ interface QuizResult {
 }
 
 export default function EndPage() {
-  const [result, setResult] = useState<QuizResult | null>(null);
+  const [result, setResult] = useState<number>(0);
   const { coins } = useCoins();
 
   useEffect(() => {
