@@ -22,7 +22,7 @@ export default function RootLayout({
         {/* Mobile Container - no phone frame, just a clean centered mobile view */}
         <div className="relative w-full max-w-[430px] h-[695px] bg-slate-900 shadow-2xl overflow-hidden flex flex-col">
           <div className="flex-1 flex flex-col overflow-hidden">
-            <Advertisement />
+
             <CoinProvider>
               <div className="flex-1 ">
                 {children}

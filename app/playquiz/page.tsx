@@ -141,7 +141,7 @@ export default function PlayQuizPage() {
   };
 
   const endQuiz = () => {
-    const earnedCoins = correctAnswers
+    const earnedCoins = (correctAnswers / quiz.questions.length) * quiz.coinCost;
     console.log("earnedCoins", earnedCoins);
     const result = {
       quizId: quiz.id,
@@ -196,9 +196,9 @@ export default function PlayQuizPage() {
   };
 
   return (
-    <div className="h-full w-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800 p-4 overflow-y-auto">
+    <div className="h-full w-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800 p-4">
       {/* Header */}
-      <div className="text-center mb-6 mt-2">
+      <div className="text-center mb-4 mt-2">
         <h1 className="text-xl font-bold text-yellow-400 mb-2">
           {quizData.categoryId.charAt(0).toUpperCase() + quizData.categoryId.slice(1)}-{quizData.subcategoryId.charAt(0).toUpperCase() + quizData.subcategoryId.slice(1)}
         </h1>
@@ -208,7 +208,7 @@ export default function PlayQuizPage() {
       </div>
 
       {/* Timer and Score */}
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-4">
         {/* Correct Answers */}
         <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
           <span className="text-white font-bold text-lg">{correctAnswers}</span>
@@ -228,21 +228,21 @@ export default function PlayQuizPage() {
       </div>
 
       {/* Question Counter */}
-      <div className="text-center mb-6">
+      <div className="text-center mb-4">
         <div className="bg-slate-700 rounded-lg px-4 py-2 inline-block">
           <span className="text-white text-sm">Question {currentQuestionIndex + 1}/{quiz.questions.length}</span>
         </div>
       </div>
 
       {/* Question */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-4">
         <p className="text-white text-lg leading-relaxed">
           {currentQuestion.text}
         </p>
       </div>
 
-      {/* Answer Options */}
-      <div className="grid grid-cols-2 gap-3 mb-6">
+      {/* Answer Options (responsive grid) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
         {currentQuestion.options.map((option: string, index: number) => (
           <button
             key={index}
@@ -258,8 +258,8 @@ export default function PlayQuizPage() {
         ))}
       </div>
 
-      {/* Always-visible Score Display at the bottom */}
-      <div className="text-center mt-auto sticky bottom-0 bg-slate-900 py-3 z-10">
+      {/* Score Display (inline) */}
+      <div className="text-center mt-4">
         <p className="text-yellow-400 font-semibold text-lg">
           Your Score: {correctAnswers * 100}
         </p>

@@ -21,23 +21,18 @@ export default function EndPage() {
   useEffect(() => {
     // Get the latest quiz result from localStorage
     if (typeof window !== 'undefined') {
-      const latestResult = localStorage.getItem('latest_quiz_result');
-      if (latestResult) {
-        const parsedResult = JSON.parse(latestResult);
-        setResult(parsedResult);
+      const latestResult = JSON.parse(localStorage.getItem('quiz_app_results') || '[]');
+      const lastElement = latestResult[latestResult.length - 1];
+      const re = lastElement.correctAnswers * 100
+      console.log(re)
+      setResult(re);
 
-        // Clear the result after reading to prevent reuse
-        localStorage.removeItem('latest_quiz_result');
-      }
+      // Clear the result after reading to prevent reuse
+      localStorage.removeItem('latest_quiz_result');
+      // }
     }
   }, []);
 
-  // Calculate net score (earned coins minus entry fee)
-  const getNetScore = () => {
-    if (!result) return 0;
-    // Assuming entry fee was 100 coins, so net = earned - 100
-    return result.earnedCoins - 100;
-  };
 
   return (
     <div className="h-full w-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800 p-4 overflow-y-auto">
@@ -70,7 +65,7 @@ export default function EndPage() {
 
         {/* Score text */}
         <h2 className="text-white text-xl font-semibold mb-6">
-          You Score is {getNetScore()}
+          Your Score is {result}
         </h2>
 
         {/* Go to Home button */}
