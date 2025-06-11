@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function ReportBugPage() {
     const [formSubmitted, setFormSubmitted] = useState(false);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // Here you can add your actual form submission logic (API call, etc.)
         setFormSubmitted(true);
