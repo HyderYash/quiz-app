@@ -40,7 +40,7 @@ export default function Home() {
     } else {
       const finalCorrectAnswers = correctAnswers + (isCorrect ? 1 : 0);
       const earnedCoins = calculateEarnedCoins(finalCorrectAnswers);
-
+      localStorage.setItem('1st_quiz_coins', earnedCoins.toString());
       setTimeout(() => {
         addCoins(earnedCoins);
         router.push('/start/result');

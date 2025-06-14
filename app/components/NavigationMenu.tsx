@@ -41,7 +41,7 @@ const NavigationMenu = ({ isOpen, onClose }: NavigationMenuProps) => {
                         />
                         <div>
                             <div className="text-slate-100 font-medium">Guest</div>
-                            <div className="text-orange-400 text-sm">Play Quiz & Earn Money</div>
+                            <div className="text-orange-400 text-sm">Play Quiz & Earn Coins</div>
                         </div>
                     </div>
 
