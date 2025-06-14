@@ -35,7 +35,7 @@ export default function EndPage() {
 
 
   return (
-    <div className="h-full w-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800 p-4 overflow-y-auto">
+    <div className="min-h-screen w-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800 p-4 overflow-y-auto">
       {/* Back to Home Link */}
       <div className="mb-4 flex justify-between">
         <Link href="/start" className="inline-flex items-center text-yellow-400 hover:text-yellow-300 font-medium">

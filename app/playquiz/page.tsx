@@ -2,11 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { X } from "lucide-react";
-import Link from "next/link";
 import { useCoins } from "../providers";
-import { saveQuizResult } from "@/lib/utils";
-import { cn } from "@/lib/utils";
+import { saveQuizResult, cn } from "@/lib/utils";
+import Advertisement from "../components/Advertisement";
+import { X } from "lucide-react";
 
 function findQuizFromApiData(apiData: any, categoryId: string, subcategoryId: string, quizId: string) {
   if (!apiData || typeof apiData !== 'object') return null;
@@ -20,7 +19,6 @@ function findQuizFromApiData(apiData: any, categoryId: string, subcategoryId: st
     ? questionsArr.filter(q => q && q.question && Array.isArray(q.options) && q.options.length > 0)
     : [];
   if (questions.length === 0) return null;
-  // Quiz id is like `${categoryName}-${subcatName}`
   const expectedQuizId = `${cat[0]}-${subcat[0]}`.toLowerCase().replace(/\s+/g, '-');
   if (quizId !== expectedQuizId) return null;
   return {
@@ -32,7 +30,7 @@ function findQuizFromApiData(apiData: any, categoryId: string, subcategoryId: st
       title: `${subcat[0]} Quiz`,
       description: `Quiz for ${subcat[0]}`,
       coinCost: 100,
-      coinReward: 2000,
+      coinReward: 1000,
       questions: questions.map((qq: any, i: number) => ({
         id: qq.id || `${cat[0]}-${subcat[0]}-q${i}`,
         text: qq.question || '',
@@ -60,11 +58,10 @@ export default function PlayQuizPage() {
   const [hasDeductedCoins, setHasDeductedCoins] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(300); // 5 minutes = 300 seconds
+  const [timeLeft, setTimeLeft] = useState(300);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Try to get quiz data from localStorage
     if (typeof window !== 'undefined') {
       const stored = localStorage.getItem('current_quiz');
       if (stored) {
@@ -76,7 +73,6 @@ export default function PlayQuizPage() {
           setQuizData(null);
         }
       }
-      // If not found, fetch from API using params
       (async () => {
         try {
           const res = await fetch('/api/quiz-data');
@@ -98,12 +94,10 @@ export default function PlayQuizPage() {
   }, [categoryId, subcategoryId, quizId]);
 
   useEffect(() => {
-    // If quiz not found, redirect to start
     if (!loading && (quizData === null || !quizData.quiz)) {
       router.replace("/start");
       return;
     }
-    // Deduct coins on start
     if (!hasDeductedCoins && quizData && quizData.quiz) {
       deductCoins(quizData.quiz.coinCost);
       setHasDeductedCoins(true);
@@ -111,13 +105,11 @@ export default function PlayQuizPage() {
     }
   }, [quizData, router, deductCoins, hasDeductedCoins, loading]);
 
-  // Timer countdown
   useEffect(() => {
     if (!hasStarted || timeLeft <= 0) return;
     const timer = setInterval(() => {
       setTimeLeft(prev => {
         if (prev <= 1) {
-          // Time's up - end quiz
           endQuiz();
           return 0;
         }
@@ -140,16 +132,15 @@ export default function PlayQuizPage() {
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
 
-  const endQuiz = () => {
-    const earnedCoins = (correctAnswers / quiz.questions.length) * quiz.coinCost;
-    console.log("earnedCoins", earnedCoins);
+  const endQuiz = (finalCorrectAnswers = correctAnswers) => {
+    const earnedCoins = finalCorrectAnswers * (quiz.coinReward / quiz.questions.length);
     const result = {
       quizId: quiz.id,
-      correctAnswers,
+      correctAnswers: finalCorrectAnswers,
       totalQuestions: quiz.questions.length,
       earnedCoins,
       coinCost: quiz.coinCost,
-      timestamp: new Date().getTime()
+      timestamp: new Date().getTime(),
     };
     saveQuizResult(result);
     if (typeof window !== 'undefined') {
@@ -162,108 +153,107 @@ export default function PlayQuizPage() {
 
   const handleAnswer = (answerIndex: number) => {
     if (showResult) return;
+
+    const isCorrect = answerIndex === currentQuestion.correctAnswer;
     setSelectedAnswer(answerIndex);
     setShowResult(true);
-    const isCorrect = answerIndex === currentQuestion.correctAnswer;
-    if (isCorrect) {
-      setCorrectAnswers(prev => prev + 1);
-    } else {
-      setWrongAnswers(prev => prev + 1);
-    }
-    // Move to next question after delay
+
+    // Use a local variable to track updated correct count
+    const updatedCorrectAnswers = isCorrect ? correctAnswers + 1 : correctAnswers;
+
+    if (isCorrect) setCorrectAnswers(updatedCorrectAnswers);
+    else setWrongAnswers(prev => prev + 1);
+
     setTimeout(() => {
-      if (currentQuestionIndex < quiz.questions.length - 1) {
+      const isLastQuestion = currentQuestionIndex === quiz.questions.length - 1;
+
+      if (isLastQuestion) {
+        // Pass the correct updated value to endQuiz
+        endQuiz(updatedCorrectAnswers);
+      } else {
         setCurrentQuestionIndex(prev => prev + 1);
         setSelectedAnswer(null);
         setShowResult(false);
-      } else {
-        endQuiz();
       }
     }, 1000);
   };
 
   const getOptionClassName = (index: number) => {
-    if (!showResult) {
-      return "bg-slate-700 hover:bg-slate-600 text-white";
-    }
-    if (index === currentQuestion.correctAnswer) {
-      return "bg-green-600 text-white";
-    }
-    if (index === selectedAnswer && index !== currentQuestion.correctAnswer) {
-      return "bg-red-600 text-white";
-    }
+    if (!showResult) return "bg-slate-700 hover:bg-slate-600 text-white";
+    if (index === currentQuestion.correctAnswer) return "bg-green-600 text-white";
+    if (index === selectedAnswer && index !== currentQuestion.correctAnswer) return "bg-red-600 text-white";
     return "bg-slate-700 text-white";
   };
 
   return (
-    <div className="h-full w-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800 p-4">
-      {/* Header */}
-      <div className="text-center mb-4 mt-2">
-        <h1 className="text-xl font-bold text-yellow-400 mb-2">
-          {quizData.categoryId.charAt(0).toUpperCase() + quizData.categoryId.slice(1)}-{quizData.subcategoryId.charAt(0).toUpperCase() + quizData.subcategoryId.slice(1)}
-        </h1>
-        <p className="text-white text-lg">
-          Play & WinCoin 💰{quiz.coinReward}
-        </p>
-      </div>
-
-      {/* Timer and Score */}
-      <div className="flex items-center justify-between mb-4">
-        {/* Correct Answers */}
-        <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
-          <span className="text-white font-bold text-lg">{correctAnswers}</span>
+    <>
+      <div className="min-h-screen w-full flex flex-col bg-gradient-to-b from-slate-900 to-slate-800 p-4 relative pt-12">
+        {/* Quit/Close Button */}
+        <button
+          className="absolute top-4 right-4 z-20 bg-slate-800/80 hover:bg-slate-700 text-white rounded-full p-2 shadow-lg transition-colors"
+          onClick={() => router.push('/start')}
+          aria-label="Quit Quiz"
+        >
+          <X className="w-6 h-6" />
+        </button>
+        <div className="text-center mb-4 mt-2">
+          <h1 className="text-xl font-bold text-yellow-400 mb-2">
+            {quizData.categoryId.charAt(0).toUpperCase() + quizData.categoryId.slice(1)}-{quizData.subcategoryId.charAt(0).toUpperCase() + quizData.subcategoryId.slice(1)}
+          </h1>
+          <p className="text-white text-lg">
+            Play & WinCoin 💰{quiz.coinReward}
+          </p>
         </div>
 
-        {/* Timer */}
-        <div className="relative">
-          <div className="w-20 h-20 rounded-full border-4 border-yellow-400 flex items-center justify-center bg-slate-700">
-            <span className="text-white font-bold text-lg">{formatTime(timeLeft)}</span>
+        <div className="flex items-center justify-between mb-4">
+          <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+            <span className="text-white font-bold text-lg">{correctAnswers}</span>
+          </div>
+
+          <div className="relative">
+            <div className="w-20 h-20 rounded-full border-4 border-yellow-400 flex items-center justify-center bg-slate-700">
+              <span className="text-white font-bold text-lg">{formatTime(timeLeft)}</span>
+            </div>
+          </div>
+
+          <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+            <span className="text-white font-bold text-lg">{wrongAnswers}</span>
           </div>
         </div>
 
-        {/* Wrong Answers */}
-        <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-          <span className="text-white font-bold text-lg">{wrongAnswers}</span>
+        <div className="text-center mb-4">
+          <div className="bg-slate-700 rounded-lg px-4 py-2 inline-block">
+            <span className="text-white text-sm">Question {currentQuestionIndex + 1}/{quiz.questions.length}</span>
+          </div>
+        </div>
+
+        <div className="text-center mb-4">
+          <p className="text-white text-lg leading-relaxed">{currentQuestion.text}</p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+          {currentQuestion.options.map((option: string, index: number) => (
+            <button
+              key={index}
+              onClick={() => handleAnswer(index)}
+              disabled={showResult}
+              className={cn(
+                "p-4 rounded-lg text-center font-medium transition-all duration-200",
+                getOptionClassName(index)
+              )}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+
+        <div className="text-center mt-4">
+          <p className="text-yellow-400 font-semibold text-lg">
+            Your Score: {correctAnswers * (quiz.coinReward / quiz.questions.length)}
+          </p>
         </div>
       </div>
-
-      {/* Question Counter */}
-      <div className="text-center mb-4">
-        <div className="bg-slate-700 rounded-lg px-4 py-2 inline-block">
-          <span className="text-white text-sm">Question {currentQuestionIndex + 1}/{quiz.questions.length}</span>
-        </div>
-      </div>
-
-      {/* Question */}
-      <div className="text-center mb-4">
-        <p className="text-white text-lg leading-relaxed">
-          {currentQuestion.text}
-        </p>
-      </div>
-
-      {/* Answer Options (responsive grid) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-        {currentQuestion.options.map((option: string, index: number) => (
-          <button
-            key={index}
-            onClick={() => handleAnswer(index)}
-            disabled={showResult}
-            className={cn(
-              "p-4 rounded-lg text-center font-medium transition-all duration-200",
-              getOptionClassName(index)
-            )}
-          >
-            {option}
-          </button>
-        ))}
-      </div>
-
-      {/* Score Display (inline) */}
-      <div className="text-center mt-4">
-        <p className="text-yellow-400 font-semibold text-lg">
-          Your Score: {correctAnswers * 100}
-        </p>
-      </div>
-    </div>
+      <Advertisement />
+    </>
   );
 }

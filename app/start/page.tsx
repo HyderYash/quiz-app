@@ -26,7 +26,7 @@ function transformApiData(apiData: any) {
           title: `${subcatName} Quiz`,
           description: `Quiz for ${subcatName}`,
           coinCost: 100,
-          coinReward: 2000,
+          coinReward: 1000,
           questions: questions.map((qq: any, i: number) => ({
             id: qq.id || `${categoryName}-${subcatName}-q${i}`,
             text: qq.question || '',

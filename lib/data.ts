@@ -36,10 +36,10 @@ export const categories: Category[] = [
         quizzes: [
           {
             id: 'nature-ecology',
-            title: 'Play and Win 2000',
+            title: 'Play and Win 1000',
             description: 'Test your knowledge about nature and ecology.',
             coinCost: 100,
-            coinReward: 2000,
+            coinReward: 1000,
             questions: [
               {
                 id: 'n-1',
@@ -76,10 +76,10 @@ export const categories: Category[] = [
         quizzes: [
           {
             id: 'business-companies',
-            title: 'Play and Win 2000',
+            title: 'Play and Win 1000',
             description: 'Test your knowledge about business and companies.',
             coinCost: 100,
-            coinReward: 2000,
+            coinReward: 1000,
             questions: [
               {
                 id: 'b-1',
@@ -116,10 +116,10 @@ export const categories: Category[] = [
         quizzes: [
           {
             id: 'sports-ipl',
-            title: 'Play and Win 2000',
+            title: 'Play and Win 1000',
             description: 'Test your knowledge about IPL cricket.',
             coinCost: 100,
-            coinReward: 2000,
+            coinReward: 1000,
             questions: [
               {
                 id: 's-1',
@@ -156,10 +156,10 @@ export const categories: Category[] = [
         quizzes: [
           {
             id: 'history-war',
-            title: 'Play and Win 2000',
+            title: 'Play and Win 1000',
             description: 'Test your knowledge about historical wars.',
             coinCost: 100,
-            coinReward: 2000,
+            coinReward: 1000,
             questions: [
               {
                 id: 'h-1',
@@ -196,10 +196,10 @@ export const categories: Category[] = [
         quizzes: [
           {
             id: 'world-landmarks',
-            title: 'Play and Win 2000',
+            title: 'Play and Win 1000',
             description: 'Test your knowledge about world landmarks.',
             coinCost: 100,
-            coinReward: 2000,
+            coinReward: 1000,
             questions: [
               {
                 id: 'w-1',
